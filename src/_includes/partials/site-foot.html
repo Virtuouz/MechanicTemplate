@@ -1,0 +1,57 @@
+{% assign navPages = collections.all | eleventyNavigation %}
+
+{% capture logoUrl%}
+{% if disableNav == true  %}
+{{page.url}}
+{% else %}
+/
+{% endif %}
+{% endcapture%}
+<footer
+  class=" cs-w-full pt-40 bg-{{site.footer_color_group}}-backgroundcolor flex flex-col items-center justify-center text-{{site.footer_color_group}}-textcolor"
+>
+  <div class="basecontainer w-full">
+    <div class="flex flex-wrap justify-around gap-10">
+      <div class="max-w-[300px]">
+        <a 
+        data-umami-event="logo-homeLink-footer"
+        href="{{logoUrl}}">
+          {% if not site.logoPath or site.logoPath == "" %}
+            <p class="cs-logoFont text-2xl hover:underline">{{site.name}}</p>
+            {% else %}
+            {% image site.logoPath, "logo for {{site.name}}", "w-full "  %}
+          {% endif %}
+        </a>
+        <ul class="mt-4 flex flex-wrap overflow-hidden gap-x-4 gap-y-1">
+        {% for socialLink in site.socialMediaLinks %}
+        <li class="hover:underline after:absolute after:content-['|'] after:scale-150   relative before:content-[' '] after:left-[-11px] after:text-lg">
+          <a 
+          data-umami-event="{{socialLink.label}}-socialLink-footer"
+          href="{{ socialLink.linkUrl }}" target="_blank" >{{socialLink.label}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
+      {% if disableNav != true %}
+      <div class="">
+        <p class="font-bold opacity-90">Navigation</p>
+        <ul class="mt-2  flex flex-col justify-center gap-1 md:gap-4">
+          {% for entry in navPages %} {% render "partials/render-footer.html" with
+          entry as entry, page:page %} {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="mt-20">
+    <p class="text-center" data-type="neutral">
+      © {{ helpers.getTodaysYear }}, by {{site.legalName}}
+    </p>
+    <p class="text-center text-sm" data-type="neutral">
+      Powered by Vynxlabs. Like it?
+      <a 
+      data-umami-event="vynxlabs-link-footer"
+      href="https://vynxlabs.com/" class="underline">Lets build one for you!</a>
+    </p>
+  </div>
+</footer>

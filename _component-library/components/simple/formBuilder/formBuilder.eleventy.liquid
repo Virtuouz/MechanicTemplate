@@ -1,0 +1,20 @@
+<div class="w-full flex flex-col justify-center items-center">
+  <form
+    {% if sectionId %}
+    id="{{ sectionId }}"
+    {% endif %}
+    {% if successPage %}
+    action="{{ successPage }}"
+    {% endif %}
+    method="POST"
+    data-netlify="true"
+    data-netlify-recaptcha="true"
+    name="{{ formName }}"
+    class="w-full max-w-[512px]">
+    {% for element in form_elements %}
+      <div class="mt-4">{% bookshop "{{element._bookshop_name}}" bind: element %}</div>
+    {% endfor %}
+    <div class="mt-4" data-netlify-recaptcha="true"></div>
+    <div class="mt-5 flex justify-end">{% bookshop "generic/button" bind: submitButton %}</div>
+  </form>
+</div>

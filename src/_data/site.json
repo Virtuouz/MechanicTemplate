@@ -1,16 +1,16 @@
 {
   "logoPath": "",
   "faviconPath": "",
-  "name": "My Business Name",
-  "legalName": "Legal Name LLC",
-  "url": "https://exampe.com",
+  "name": "AUTOMOTIVE MECHANIC",
+  "legalName": "AUTOMOTIVE MECHANIC LLC",
+  "url": "https://exampLe.com",
   "contactInfo": {
     "email": "info@example.com",
     "phone": "123-456-7890",
     "location": "Some Rd, Somecity, ID ",
     "hours": "Mon - Fri: 8am-5pm"
   },
-  "customCode":{
+  "customCode": {
     "headCode": "",
     "bodyCode": ""
   },
@@ -47,7 +47,7 @@
   },
   "nav_color_group": "primary",
   "color_group": "primary",
-  "footer_color_group": "primary_dark0",
+  "footer_color_group": "5c9075f8-80f9-4482-b041-91cffdfe02be",
   "_inputs": {
     "umamiAnalytics": {
       "hidden": true
@@ -62,11 +62,11 @@
       "hidden": "!bringYourOwnUmami"
     },
     "headCode": {
-      "comment":"Add code at the end of the <head> tag",
+      "comment": "Add code at the end of the <head> tag",
       "type": "code"
     },
     "bodyCode": {
-      "comment":"Add code before the </body> tag",
+      "comment": "Add code before the </body> tag",
       "type": "code"
     },
     "color_group": {

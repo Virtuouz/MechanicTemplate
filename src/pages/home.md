@@ -92,7 +92,7 @@ content_blocks:
         - review: 49301fcb-2c3e-4143-b164-23a71185410c
         - review: 8dd4778d-24b7-424b-96f9-63cbb2cc8d80
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/servicesSection
     content:
       sectionId:
@@ -148,7 +148,7 @@ content_blocks:
           contrastAgainst:
           textClassOverride:
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/upcomingHappening
     contents:
       sectionId:
@@ -243,10 +243,10 @@ content_blocks:
               class:
             entryNumber: 0
           styles:
-            color_group: primary
+            color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
             colorFromGroup: background
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       startImageRight: false
       fullWidth: true
   - _bookshop_name: sections/reviewCards

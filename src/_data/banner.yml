@@ -3,7 +3,7 @@ html: <p>New customers get $10 dollars off their first oil change!</p>
 id: '20241012'
 show_until: 2033-07-01T00:00:00Z
 color_group: primary
-colorFromGroup: accent
+colorFromGroup: primary
 _inputs:
   enable_banner:
     type: switch

@@ -35,12 +35,12 @@
       "linkUrl": "https://dribbble.com/"
     }
   ],
-  "socialImage": "",
+  "socialImage": "/assets/uploads/engine-diagnostic.jpg",
   "button": {
     "_bookshop_name": "generic/button",
     "url": "https://example.com",
     "openInNewTab": false,
-    "text": "Button Text",
+    "text": "Book an Appointment ",
     "color_group": "primary",
     "colorFromGroup": "primary",
     "ghostButton": true

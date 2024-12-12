@@ -1,12 +1,17 @@
 - name: Jhon Smith
-  titleOrDescription: Full stack developer
-  personImage: /assets/uploads/2149529892.jpg
+  titleOrDescription: From Jerome
+  personImage: /assets/uploads/pexels-arthousestudio-4321038.jpg
   resultImage: /assets/uploads/2149529892.jpg
-  review: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  review: >-
+    I know a thing or two about cars, but I'd rather leave it to the pros to
+    rebuild my engine. Automotive Mechanic did a great job and gave me updates
+    during the process
   id: cf5af1f3-4b28-4280-a664-0ef482ae9215
 - name: Jane Smith
-  titleOrDescription: CEO at ACME Corp.
-  personImage: /assets/uploads/jane-doe.jpg
+  titleOrDescription: From Twin Falls
+  personImage: /assets/uploads/pexels-atef-khaled-825144-1816645.jpg
   resultImage: /assets/uploads/2149529892.jpg
-  review: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  review: >-
+    I dropped my car off early morning and it was ready by 3pm? I can't believe
+    how fast they go it done
   id: e8b58d19-77b3-4e15-9d00-88808b9dc2b4

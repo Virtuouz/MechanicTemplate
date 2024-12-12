@@ -91,6 +91,64 @@ content_blocks:
     styles:
       color_group: primary
       cardStyle: defaultCard
+  - _bookshop_name: sections/simpleCta
+    content:
+      sectionId:
+      CallToAction:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: Don't see what you need?
+          headline: Give us a call and see how we can help your vehicle
+          description: ''
+          buttons:
+            - _bookshop_name: generic/button
+              url: '#'
+              openInNewTab: false
+              text: Book an appointment
+              color_group: primary
+              colorFromGroup: primary
+              ghostButton: false
+              formSubmit: false
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+    styles:
+      color_group: primary
+  - _bookshop_name: sections/textBreakReview
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Recent reviews
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      usePersonImage: true
+      reviews:
+        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+    styles:
+      color_group: primary
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation

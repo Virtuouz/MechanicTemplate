@@ -66,6 +66,33 @@ hero:
     color_group: primary
     headingRight: false
 content_blocks:
+  - _bookshop_name: sections/textBreakReview
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Recent reviews
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      usePersonImage: true
+      reviews:
+        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+    styles:
+      color_group: primary
   - _bookshop_name: sections/servicesSection
     content:
       sectionId:
@@ -122,7 +149,7 @@ content_blocks:
           textClassOverride:
     styles:
       color_group: primary
-  - _bookshop_name: sections/textBreakReview
+  - _bookshop_name: sections/sideBySideStandard
     content:
       sectionId:
       heading:
@@ -130,7 +157,7 @@ content_blocks:
         content:
           highlightEyebrow: false
           eyebrow: ''
-          headline: Recent reviews
+          headline: About us
           description: ''
           buttons: []
           headingHierarchy: h2
@@ -143,10 +170,114 @@ content_blocks:
           contrastColorGroup:
           contrastAgainst:
           textClassOverride:
-      usePersonImage: true
+      entries:
+        - _bookshop_name: generic/leftRight
+          content:
+            heading:
+              _bookshop_name: generic/heading
+              content:
+                highlightEyebrow: false
+                eyebrow: ''
+                headline: In business since 2007
+                description: >-
+                  Welcome to \[Mechanic Shop Name\], where quality, honesty, and
+                  reliability drive everything we do. Located in the heart of
+                  \[City/Area\], our shop has been proudly serving the community
+                  for over \[X years\]. Whether you're here for routine
+                  maintenance, complex repairs, or diagnostics, we treat every
+                  vehicle like it’s our own.
+
+
+                  At \[Mechanic Shop Name\], we believe in more than just fixing
+                  cars—we believe in building trust. Our team of certified
+                  technicians combines years of expertise with cutting-edge
+                  tools to ensure your vehicle gets the care it deserves. From
+                  oil changes to transmission repairs, we’re equipped to handle
+                  all makes and models, providing you with the peace of mind
+                  that your car is in the best hands.
+
+
+                  What sets us apart? It's our commitment to transparency and
+                  customer satisfaction. We take the time to explain every
+                  detail of your repair, offering clear estimates with no hidden
+                  fees. Our mission is to keep you safe on the road while making
+                  your experience as seamless as possible.
+
+
+                  When you choose \[Mechanic Shop Name\], you're choosing a
+                  local business that values hard work, integrity, and
+                  community. Stop by today or give us a call to see how we can
+                  help keep your vehicle running smoothly.
+
+
+                  *“At \[Mechanic Shop Name\], your journey is our priority.”*
+                buttons: []
+                headingHierarchy: h2
+              styles:
+                contentAlignment: center
+                textAlignment: left
+                visualInterest: none
+                visualInterestColor: '#000000'
+                highContrast: false
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
+            image:
+              _bookshop_name: generic/image
+              imagePath: /assets/uploads/professional-mechanic/two-mechanics.jpg
+              imageAlt:
+              yAxisPosition:
+              imageSizes:
+              class:
+            entryNumber: 0
+          styles:
+            color_group: primary
+            colorFromGroup: background
+    styles:
+      color_group: primary
+      startImageRight: false
+      fullWidth: true
+  - _bookshop_name: sections/reviewCards
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: What the community has to say about us
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      usePersonImage: false
       reviews:
         - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: background
         - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: background
+        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: background
+        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: background
+        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: background
+        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+          card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+          colorFromGroup: background
     styles:
       color_group: primary
 _inputs:

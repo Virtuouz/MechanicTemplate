@@ -149,6 +149,18 @@ content_blocks:
           textClassOverride:
     styles:
       color_group: primary
+  - _bookshop_name: sections/upcomingHappening
+    contents:
+      sectionId:
+      showNote: true
+      showCancelled: true
+      tags:
+      showCountdown: false
+      noHappeningsHeading:
+    styles:
+      color_group: primary
+      countDownPosition: center
+      backgroundOpacity: 65
   - _bookshop_name: sections/sideBySideStandard
     content:
       sectionId:

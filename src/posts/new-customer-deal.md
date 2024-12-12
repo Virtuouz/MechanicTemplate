@@ -16,6 +16,7 @@ summary: All brand new customers will get $10 dollars off on their first oil cha
 author:
 tags:
   - Announcement
+  - Promotion
 blogImage: /assets/uploads/oil-change-discount.jpg
 imageAltText:
 image: '{% if blogImage %}{{blogImage}}{% else %}{{blog.defaultImage}}{% endif %}'

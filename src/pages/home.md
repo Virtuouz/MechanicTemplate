@@ -90,7 +90,7 @@ content_blocks:
       usePersonImage: true
       reviews:
         - review: 49301fcb-2c3e-4143-b164-23a71185410c
-        - review: fdfb9528-63ef-4c42-863c-575bd77d5488
+        - review: 8dd4778d-24b7-424b-96f9-63cbb2cc8d80
     styles:
       color_group: primary
   - _bookshop_name: sections/servicesSection
@@ -260,22 +260,22 @@ content_blocks:
           textClassOverride:
       usePersonImage: false
       reviews:
-        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+        - review: 49301fcb-2c3e-4143-b164-23a71185410c
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: background
-        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+        - review: 8dd4778d-24b7-424b-96f9-63cbb2cc8d80
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: background
-        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+        - review: 49301fcb-2c3e-4143-b164-23a71185410c
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: background
-        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+        - review: 8dd4778d-24b7-424b-96f9-63cbb2cc8d80
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: background
-        - review: e8b58d19-77b3-4e15-9d00-88808b9dc2b4
+        - review: 49301fcb-2c3e-4143-b164-23a71185410c
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: background
-        - review: cf5af1f3-4b28-4280-a664-0ef482ae9215
+        - review: 8dd4778d-24b7-424b-96f9-63cbb2cc8d80
           card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
           colorFromGroup: background
     styles:

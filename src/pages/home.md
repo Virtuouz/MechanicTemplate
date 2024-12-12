@@ -292,6 +292,39 @@ content_blocks:
           colorFromGroup: background
     styles:
       color_group: primary
+  - _bookshop_name: sections/coloredCTA
+    content:
+      sectionId:
+      CallToAction:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Ready to get back on the road?
+          description: ''
+          buttons:
+            - _bookshop_name: generic/button
+              url: '#'
+              openInNewTab: false
+              text: Book an appointment
+              color_group: primary
+              colorFromGroup: background
+              ghostButton: false
+              formSubmit: false
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+    styles:
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+      card_color_group: primary
+      colorFromGroup: primary
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation

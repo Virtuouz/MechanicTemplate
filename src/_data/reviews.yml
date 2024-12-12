@@ -1,18 +1,17 @@
 - name: Jhon Smith
   titleOrDescription: From Jerome
   personImage: /assets/uploads/pexels-arthousestudio-4321038.jpg
-  resultImage: /assets/uploads/2149529892.jpg
+  resultImage: /assets/uploads/pexels-arthousestudio-4321038.jpg
   review: >-
     I know a thing or two about cars, but I'd rather leave it to the pros to
     rebuild my engine. Automotive Mechanic did a great job and gave me updates
     during the process
   id: 49301fcb-2c3e-4143-b164-23a71185410c
-- name: Jhon Smith
+- name: John Doe
   titleOrDescription: From Jerome
-  personImage: /assets/uploads/pexels-arthousestudio-4321038.jpg
-  resultImage: /assets/uploads/2149529892.jpg
+  personImage: /assets/uploads/pexels-atef-khaled-825144-1816645.jpg
+  resultImage: /assets/uploads/pexels-atef-khaled-825144-1816645.jpg
   review: >-
-    I know a thing or two about cars, but I'd rather leave it to the pros to
-    rebuild my engine. Automotive Mechanic did a great job and gave me updates
-    during the process
-  id: fdfb9528-63ef-4c42-863c-575bd77d5488
+    They got my car done fast! I dropped it off early in the morning and it was
+    ready by the end of the day.
+  id: 8dd4778d-24b7-424b-96f9-63cbb2cc8d80

@@ -8,7 +8,8 @@ metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
-serviceImage: /assets/uploads/brake-pad-replacement.jpg
+serviceImage: >-
+  /assets/uploads/brake-pad-and-disk-replacement/brake-pad-and-disk-replacement.jpg
 imageAltText:
 category: Maintenance
 summary:

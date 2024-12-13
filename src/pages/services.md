@@ -6,8 +6,8 @@ eleventyExcludeFromCollections: false
 disableNav: false
 removeFromNavigation: false
 eleventyNavigation:
-  key: page
-  order: 1
+  key: Services
+  order: 2
   title:
   parent:
   url:
@@ -55,7 +55,7 @@ hero:
       imageSizes:
       class:
   styles:
-    color_group: primary
+    color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
 content_blocks:
   - _bookshop_name: sections/servicesSection
@@ -98,7 +98,7 @@ content_blocks:
           contrastAgainst:
           textClassOverride:
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation

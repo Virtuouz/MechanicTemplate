@@ -8,7 +8,7 @@ metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
-serviceImage:
+serviceImage: /assets/uploads/tune-up.jpg
 imageAltText:
 category: Maintenance
 summary:

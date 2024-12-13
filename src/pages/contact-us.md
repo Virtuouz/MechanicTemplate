@@ -50,6 +50,9 @@ content_blocks:
           contrastAgainst:
           textClassOverride:
       embed:
+        _bookshop_name: generic/customEmbed
+        embed:
+        ratio: auto
       buttons: []
     styles:
       color_group: primary

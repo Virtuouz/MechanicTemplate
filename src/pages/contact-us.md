@@ -1,6 +1,6 @@
 ---
 _schema: default
-draft: true
+draft: false
 title: Contact Us
 eleventyExcludeFromCollections: false
 disableNav: false

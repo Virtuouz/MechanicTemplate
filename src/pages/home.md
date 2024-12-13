@@ -249,6 +249,113 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       startImageRight: false
       fullWidth: true
+  - _bookshop_name: sections/mediaCards
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Current specials
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      cards:
+        - _bookshop_name: generic/mediaCards/defaultMediaCard
+          content:
+            heading:
+              _bookshop_name: generic/heading
+              content:
+                highlightEyebrow: false
+                eyebrow: ''
+                headline: $10 dollars off your first oil change
+                description: >-
+                  Keep your engine running smoothly and efficiently with this
+                  special offer! New and returning customers can enjoy $10 off
+                  their next oil change. Don’t miss this chance to save on
+                  routine maintenance.
+                buttons:
+                  - _bookshop_name: generic/button
+                    url: '#'
+                    openInNewTab: false
+                    text: Claim now
+                    color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
+                    colorFromGroup: accent
+                    ghostButton: false
+                    formSubmit: false
+                headingHierarchy: h2
+              styles:
+                contentAlignment: left
+                textAlignment: left
+                visualInterest: none
+                visualInterestColor: '#000000'
+                highContrast: false
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
+            image:
+              _bookshop_name: generic/image
+              imagePath: /assets/uploads/oil-change-discount.jpg
+              imageAlt:
+              yAxisPosition:
+              imageSizes:
+              class:
+          styles:
+            color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+            colorFromGroup: background
+        - _bookshop_name: generic/mediaCards/defaultMediaCard
+          content:
+            heading:
+              _bookshop_name: generic/heading
+              content:
+                highlightEyebrow: false
+                eyebrow: ''
+                headline: Free break inspection with any service
+                description: >-
+                  Your safety is our priority! Get a thorough brake inspection
+                  at no extra cost when you book any service. Ensure your brakes
+                  are in top condition and drive with confidence.
+                buttons:
+                  - _bookshop_name: generic/button
+                    url: '#'
+                    openInNewTab: false
+                    text: Claim now
+                    color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
+                    colorFromGroup: accent
+                    ghostButton: false
+                    formSubmit: false
+                headingHierarchy: h2
+              styles:
+                contentAlignment: left
+                textAlignment: left
+                visualInterest: none
+                visualInterestColor: '#000000'
+                highContrast: false
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
+            image:
+              _bookshop_name: generic/image
+              imagePath: /assets/uploads/professional-mechanic/free-brake-inspection.jpg
+              imageAlt:
+              yAxisPosition: 50
+              imageSizes:
+              class:
+          styles:
+            color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
+            colorFromGroup: background
+    styles:
+      color_group: primary
   - _bookshop_name: sections/reviewCards
     content:
       sectionId:
@@ -325,6 +432,49 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       card_color_group: primary
       colorFromGroup: primary
+  - _bookshop_name: sections/basicFormWithImage
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: heading
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      image:
+        _bookshop_name: generic/image
+        imagePath:
+        imageAlt:
+        yAxisPosition:
+        imageSizes:
+        class:
+      form:
+        _bookshop_name: simple/formBuilder
+        formName:
+        sectionId:
+        successPage:
+        form_elements: []
+        submitButton:
+          text: Submit
+          color_group: primary
+          colorFromGroup: primary
+          ghostButton: false
+          formSubmit: true
+    styles:
+      color_group: primary
+      form_color_group: primary
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation

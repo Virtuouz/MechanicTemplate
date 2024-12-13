@@ -23,16 +23,16 @@
   },
   "socialMediaLinks": [
     {
-      "label": "Xwitter",
-      "linkUrl": "https://twitter.com/"
-    },
-    {
       "label": "Facebook",
       "linkUrl": "https://www.facebook.com/"
     },
     {
-      "label": "Dribble",
-      "linkUrl": "https://dribbble.com/"
+      "label": "Instagram",
+      "linkUrl": "https://instagram.com/"
+    },
+    {
+      "label": "Yelp",
+      "linkUrl": "https://Yelp.com/"
     }
   ],
   "socialImage": "/assets/uploads/engine-diagnostic.jpg",

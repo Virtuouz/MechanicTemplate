@@ -182,7 +182,7 @@ content_blocks:
           ghostButton: false
           formSubmit: false
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: false
       imageVisualInterest: none
@@ -359,7 +359,7 @@ content_blocks:
           **See for yourself why so many drivers trust us. Schedule your oil
           change today!**
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/textBreakReview
     content:
       sectionId:
@@ -463,7 +463,7 @@ content_blocks:
           Shop Name\], we believe in transparent pricing. We’ll provide a clear
           estimate before starting any work, so there are no surprises.
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/coloredCTA
     content:
       sectionId:
@@ -520,7 +520,7 @@ content_blocks:
           textClassOverride:
       showNote: true
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardStyle: defaultCard
 _inputs:
   headCode:

@@ -1,6 +1,6 @@
 ---
 _schema: default
-draft: true
+draft: false
 title: Meet the Team
 eleventyExcludeFromCollections: false
 disableNav: false

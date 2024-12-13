@@ -360,6 +360,32 @@ content_blocks:
           change today!**
     styles:
       color_group: primary
+  - _bookshop_name: sections/textBreakReview
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: What others are saying
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      usePersonImage: true
+      reviews:
+        - review: cf32b299-8ad1-46c9-a970-60c98b1595bc
+    styles:
+      color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
       sectionId:
@@ -438,6 +464,39 @@ content_blocks:
           estimate before starting any work, so there are no surprises.
     styles:
       color_group: primary
+  - _bookshop_name: sections/coloredCTA
+    content:
+      sectionId:
+      CallToAction:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Ready for top-notch service? Schedule your oil change today!
+          description: ''
+          buttons:
+            - _bookshop_name: generic/button
+              url: '#'
+              openInNewTab: false
+              text: schedule appointment
+              color_group: primary
+              colorFromGroup: background
+              ghostButton: false
+              formSubmit: false
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+    styles:
+      color_group: primary
+      card_color_group: primary
+      colorFromGroup: primary
   - _bookshop_name: sections/servicesSection
     content:
       sectionId:

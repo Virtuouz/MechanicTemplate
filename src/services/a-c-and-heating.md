@@ -360,6 +360,137 @@ content_blocks:
           and heating repair today and experience the difference!**
     styles:
       color_group: primary
+  - _bookshop_name: sections/simpleTextBlock
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: FAQ
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      text:
+        _bookshop_name: generic/textBlock
+        text: >-
+          **Q: How do I know if my A/C needs recharging?**<br>A: If your A/C
+          isn’t blowing cold air or is taking longer than usual to cool the
+          cabin, it may need a recharge. Bring it in, and we’ll check it for
+          leaks or other issues.
+
+
+          **Q: Why is my heater blowing cold air?**<br>A: This could be caused
+          by a low coolant level, a malfunctioning thermostat, or a clogged
+          heater core. Our team can diagnose and fix the issue.
+
+
+          **Q: How long will the repair take?**<br>A: Most A/C and heating
+          repairs can be completed within the same day, depending on the
+          complexity of the issue.
+
+
+          **Q: Can you service all makes and models?**<br>A: Absolutely! Our
+          technicians are experienced with domestic and foreign vehicles,
+          ensuring quality service for any make or model.
+    styles:
+      color_group: primary
+  - _bookshop_name: sections/textBreakReview
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: What our past clients say
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      usePersonImage: true
+      reviews:
+        - review: adbc85bd-26c5-418c-b504-4cde47466e2d
+    styles:
+      color_group: primary
+  - _bookshop_name: sections/coloredCTA
+    content:
+      sectionId:
+      CallToAction:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: Don’t let the weather make you uncomfortable.
+          headline: >-
+            Schedule your A/C and heating repair with \[Mechanic Shop Name\]
+            today!
+          description: ''
+          buttons:
+            - _bookshop_name: generic/button
+              url: '#'
+              openInNewTab: false
+              text: schedule AC/Heating service
+              color_group: primary
+              colorFromGroup: background
+              ghostButton: false
+              formSubmit: false
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+    styles:
+      color_group: primary
+      card_color_group: primary
+      colorFromGroup: primary
+  - _bookshop_name: sections/servicesSection
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Need help with something else?
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      showNote: true
+    styles:
+      color_group: primary
+      cardStyle: defaultCard
 _inputs:
   headCode:
     type: code

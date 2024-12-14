@@ -187,7 +187,7 @@ content_blocks:
           ghostButton: false
           formSubmit: false
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       card_color_group: primary
       cardBackground: false
       imageVisualInterest: none
@@ -359,7 +359,7 @@ content_blocks:
           professionalism, and a commitment to your comfort. **Schedule your A/C
           and heating repair today and experience the difference!**
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/simpleTextBlock
     content:
       sectionId:
@@ -430,7 +430,7 @@ content_blocks:
       reviews:
         - review: adbc85bd-26c5-418c-b504-4cde47466e2d
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/coloredCTA
     content:
       sectionId:
@@ -489,7 +489,7 @@ content_blocks:
           textClassOverride:
       showNote: true
     styles:
-      color_group: primary
+      color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardStyle: defaultCard
 _inputs:
   headCode:

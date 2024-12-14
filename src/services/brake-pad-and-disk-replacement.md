@@ -173,7 +173,7 @@ content_blocks:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/brake-pad-and-disk-replacement/car-brake-service.jpg
         imageAlt:
-        yAxisPosition: 0
+        yAxisPosition: 15
         imageSizes:
         class:
       buttons:
@@ -388,7 +388,7 @@ content_blocks:
         content:
           highlightEyebrow: false
           eyebrow: ''
-          headline: heading
+          headline: What others say
           description: ''
           buttons: []
           headingHierarchy: h2

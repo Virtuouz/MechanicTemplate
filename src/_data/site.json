@@ -1,8 +1,8 @@
 {
   "logoPath": "",
   "faviconPath": "",
-  "name": "Blue  Automotive",
-  "legalName": "Blue Automotive LLC",
+  "name": "Auto Repair",
+  "legalName": "Auto Repair LLC",
   "url": "https://exampLe.com",
   "contactInfo": {
     "email": "info@example.com",
@@ -40,10 +40,10 @@
     "_bookshop_name": "generic/button",
     "url": "https://example.com",
     "openInNewTab": false,
-    "text": "Book an Appointment ",
+    "text": "Book Appointment ",
     "color_group": "primary",
     "colorFromGroup": "primary",
-    "ghostButton": true
+    "ghostButton": false
   },
   "nav_color_group": "57af1dbe-0f2e-43f8-8a78-3fc88e5754fe",
   "color_group": "primary",

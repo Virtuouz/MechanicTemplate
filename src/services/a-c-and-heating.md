@@ -297,6 +297,69 @@ content_blocks:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
+  - _bookshop_name: sections/simpleTextBlock
+    content:
+      sectionId:
+      heading:
+        _bookshop_name: generic/heading
+        content:
+          highlightEyebrow: false
+          eyebrow: ''
+          headline: Why choose us for you A/C Heating Repairs
+          description: ''
+          buttons: []
+          headingHierarchy: h2
+        styles:
+          contentAlignment: center
+          textAlignment: center
+          visualInterest: none
+          visualInterestColor: '#000000'
+          highContrast: false
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
+      text:
+        _bookshop_name: generic/textBlock
+        text: >-
+          At \[Mechanic Shop Name\], we know how important a reliable climate
+          control system is for your comfort and safety. Here’s why drivers in
+          \[City/Area\] trust us with their A/C and heating repairs:
+
+
+          1. **Expert Technicians You Can Trust**<br>Our certified mechanics
+          specialize in A/C and heating systems, ensuring precise diagnostics
+          and expert repairs for any make or model.
+
+          2. **Cutting-Edge Diagnostic Tools**<br>We use state-of-the-art
+          equipment to quickly identify problems, from refrigerant leaks to
+          electrical issues, saving you time and money.
+
+          3. **High-Quality Parts, Guaranteed**<br>We use durable,
+          manufacturer-approved components to ensure your repairs stand the test
+          of time.
+
+          4. **Transparent Pricing, No Surprises**<br>With upfront estimates and
+          clear communication, you’ll always know exactly what to expect before
+          we start.
+
+          5. **Fast, Convenient Service**<br>We work efficiently to get you back
+          on the road as quickly as possible, with most repairs completed the
+          same day.
+
+          6. **Customer-Centered Care**<br>From our friendly staff to our
+          comfortable waiting area, we make your experience smooth and
+          stress-free.
+
+          7. **Long-Term Solutions, Not Temporary Fixes**<br>We don’t just patch
+          up problems—we ensure your A/C and heating systems are ready to handle
+          the hottest summers and coldest winters.
+
+
+          When you choose \[Mechanic Shop Name\], you’re choosing reliability,
+          professionalism, and a commitment to your comfort. **Schedule your A/C
+          and heating repair today and experience the difference!**
+    styles:
+      color_group: primary
 _inputs:
   headCode:
     type: code

@@ -7,7 +7,7 @@ disableNav: false
 removeFromNavigation: false
 eleventyNavigation:
   key: Blog
-  order: 1
+  order: 4
   title:
   parent:
   url:

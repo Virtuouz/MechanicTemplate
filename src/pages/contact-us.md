@@ -7,7 +7,7 @@ disableNav: false
 removeFromNavigation: false
 eleventyNavigation:
   key: Contact
-  order: 1
+  order: 9
   title:
   parent:
   url:

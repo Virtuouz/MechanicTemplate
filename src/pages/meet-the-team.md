@@ -7,7 +7,7 @@ disableNav: false
 removeFromNavigation: false
 eleventyNavigation:
   key: Meet the Team
-  order: 1
+  order: 3
   title:
   parent:
   url:

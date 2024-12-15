@@ -9,7 +9,7 @@ customCode:
   headCode: ''
   bodyCode: ''
 date: 2024-12-12T05:16:45Z
-happening: true
+happening: false
 cancelled: false
 happeningDate: 2025-12-31T00:00:00Z
 summary: All brand new customers will get $10 dollars off on their first oil change!

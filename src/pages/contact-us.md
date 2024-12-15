@@ -8,9 +8,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Contact
   order: 9
-  title:
-  parent:
-  url:
+  title: null
+  parent: null
+  url: null
 pageLink: contact
 permalink: >-
   {% capture varPagePath %}{% if pageLink%}{% assign pageLink = pageLink |
@@ -25,11 +25,11 @@ customCode:
   headCode: ''
   bodyCode: ''
 layout: layouts/page.html
-hero:
+hero: null
 content_blocks:
   - _bookshop_name: sections/largeEmbed
     content:
-      sectionId:
+      sectionId: null
       showNote: true
       heading:
         _bookshop_name: generic/heading
@@ -46,19 +46,19 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       embed:
         _bookshop_name: generic/customEmbed
-        embed:
+        embed: null
         ratio: auto
       buttons: []
     styles:
       color_group: primary
   - _bookshop_name: sections/5050ImageForm
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -74,15 +74,15 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
-      image:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
+      image: null
       form:
         _bookshop_name: simple/formBuilder
-        formName:
-        sectionId:
-        successPage:
+        formName: null
+        sectionId: null
+        successPage: null
         form_elements: []
         submitButton:
           text: Submit
@@ -94,7 +94,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId:
+      sectionId: null
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -110,9 +110,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
     styles:
       color_group: primary
       card_color_group: primary
@@ -127,3 +127,4 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
+

@@ -4,14 +4,14 @@ draft: false
 eleventyExcludeFromCollections: false
 disableNav: false
 title: Tune Ups
-metaDesc:
+metaDesc: null
 customCode:
   headCode: ''
   bodyCode: ''
 serviceImage: /assets/uploads/tune-up.jpg
-imageAltText:
+imageAltText: null
 category: Maintenance
-summary:
+summary: null
 permalink: >-
   /services/{% assign title = title | slugify %}{{ page.filePathStem |
   fileSubstringFilter | append: title | downcase }}/index.html
@@ -20,13 +20,13 @@ id: 111fed76-3de4-4508-94d4-a698953a26e9
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId:
+    sectionId: null
     heading:
       _bookshop_name: generic/heading
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: Professional Tune-Up Services in \[City\]
+        headline: 'Professional Tune-Up Services in \[City\]'
         description: >-
           Boost your vehicle’s performance and efficiency with expert tune-ups
           tailored to your needs.
@@ -46,16 +46,16 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup:
-        contrastAgainst:
-        textClassOverride:
+        contrastColorGroup: null
+        contrastAgainst: null
+        textClassOverride: null
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/tune-up.jpg
-      imageAlt:
-      yAxisPosition:
-      imageSizes:
-      class:
+      imageAlt: null
+      yAxisPosition: null
+      imageSizes: null
+      class: null
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
@@ -63,7 +63,7 @@ content_blocks:
   - _bookshop_name: sections/featuresCenterImage
     content:
       showNote: true
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -85,9 +85,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -106,9 +106,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -126,9 +126,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -144,9 +144,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -162,16 +162,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
       image:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/tune-ups/care-tune-up-service.jpg
-        imageAlt:
-        yAxisPosition:
-        imageSizes:
-        class:
+        imageAlt: null
+        yAxisPosition: null
+        imageSizes: null
+        class: null
       buttons: []
     styles:
       color_group: primary
@@ -180,7 +180,7 @@ content_blocks:
       imageVisualInterest: none
   - _bookshop_name: sections/informationCards
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -196,9 +196,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -217,9 +217,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -237,9 +237,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -257,9 +257,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -278,16 +278,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -303,9 +303,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -360,7 +360,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -376,9 +376,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       usePersonImage: true
       reviews:
         - review: 32e413d3-3ddc-4acd-ae42-ffb13de752fc
@@ -386,7 +386,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -402,9 +402,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -437,7 +437,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId:
+      sectionId: null
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -463,16 +463,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
     styles:
       color_group: primary
       card_color_group: primary
       colorFromGroup: primary
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -488,9 +488,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       showNote: true
     styles:
       color_group: primary
@@ -503,3 +503,4 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
+

@@ -8,9 +8,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Meet the Team
   order: 3
-  title:
-  parent:
-  url:
+  title: null
+  parent: null
+  url: null
 pageLink: team
 permalink: >-
   {% capture varPagePath %}{% if pageLink%}{% assign pageLink = pageLink |
@@ -42,13 +42,13 @@ hero:
       visualInterest: none
       visualInterestColor: '#000000'
       highContrast: false
-      contrastColorGroup:
-      contrastAgainst:
-      textClassOverride:
+      contrastColorGroup: null
+      contrastAgainst: null
+      textClassOverride: null
 content_blocks:
   - _bookshop_name: sections/members
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -64,9 +64,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       members:
         - _bookshop_name: generic/memberCards/defaultMemberCard
           content:
@@ -75,11 +75,11 @@ content_blocks:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/person.jpg
-              imageAlt:
-              yAxisPosition:
-              imageSizes:
-              class:
-            link:
+              imageAlt: null
+              yAxisPosition: null
+              imageSizes: null
+              class: null
+            link: null
           style:
             color_group: primary
             colorFromGroup: background
@@ -90,11 +90,11 @@ content_blocks:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/person.jpg
-              imageAlt:
-              yAxisPosition:
-              imageSizes:
-              class:
-            link:
+              imageAlt: null
+              yAxisPosition: null
+              imageSizes: null
+              class: null
+            link: null
           style:
             color_group: primary
             colorFromGroup: background
@@ -105,11 +105,11 @@ content_blocks:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/person.jpg
-              imageAlt:
-              yAxisPosition:
-              imageSizes:
-              class:
-            link:
+              imageAlt: null
+              yAxisPosition: null
+              imageSizes: null
+              class: null
+            link: null
           style:
             color_group: primary
             colorFromGroup: background
@@ -120,11 +120,11 @@ content_blocks:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/person.jpg
-              imageAlt:
-              yAxisPosition:
-              imageSizes:
-              class:
-            link:
+              imageAlt: null
+              yAxisPosition: null
+              imageSizes: null
+              class: null
+            link: null
           style:
             color_group: primary
             colorFromGroup: background
@@ -135,11 +135,11 @@ content_blocks:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/person.jpg
-              imageAlt:
-              yAxisPosition:
-              imageSizes:
-              class:
-            link:
+              imageAlt: null
+              yAxisPosition: null
+              imageSizes: null
+              class: null
+            link: null
           style:
             color_group: primary
             colorFromGroup: background
@@ -150,11 +150,11 @@ content_blocks:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/person.jpg
-              imageAlt:
-              yAxisPosition:
-              imageSizes:
-              class:
-            link:
+              imageAlt: null
+              yAxisPosition: null
+              imageSizes: null
+              class: null
+            link: null
           style:
             color_group: primary
             colorFromGroup: background
@@ -170,3 +170,4 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
+

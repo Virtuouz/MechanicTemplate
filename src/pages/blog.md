@@ -8,9 +8,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Blog
   order: 4
-  title:
-  parent:
-  url:
+  title: null
+  parent: null
+  url: null
 pageLink: blog
 permalink: >-
   {% capture varPagePath %}{% if pageLink%}{% assign pageLink = pageLink |
@@ -42,15 +42,15 @@ hero:
       visualInterest: none
       visualInterestColor: '#000000'
       highContrast: false
-      contrastColorGroup:
-      contrastAgainst:
-      textClassOverride:
+      contrastColorGroup: null
+      contrastAgainst: null
+      textClassOverride: null
 content_blocks:
   - _bookshop_name: sections/blogCards
     content:
-      sectionId:
+      sectionId: null
       showNote: true
-      heading:
+      heading: null
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardStyle: default
@@ -64,3 +64,4 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
+

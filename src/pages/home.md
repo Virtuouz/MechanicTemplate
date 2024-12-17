@@ -8,9 +8,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Home
   order: 1
-  title: null
-  parent: null
-  url: null
+  title:
+  parent:
+  url:
 pageLink: /
 permalink: >-
   {% if pageLink == 'blog' or pageLink == 'Blog' %}/{{pageLink | slugify}}{% if
@@ -20,7 +20,7 @@ permalink: >-
   }}/index.html{% else %}/{% assign title = title | slugify %}{{
   page.filePathStem | fileSubstringFilter | append: title | downcase
   }}/index.html{%endif %}
-metaDesc: null
+metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
@@ -28,13 +28,13 @@ layout: layouts/page.html
 hero:
   _bookshop_name: sections/leftRightHero
   content:
-    sectionId: null
+    sectionId:
     heading:
       _bookshop_name: generic/heading
       content:
-        highlightEyebrow: false
-        eyebrow: ''
-        headline: 'Fast, Reliable Auto Repairs You Can Trust!'
+        highlightEyebrow: true
+        eyebrow: \[\[st.name\]\] \| serving \[\[tk.area\]\]
+        headline: Fast, Reliable Auto Repairs You Can Trust!
         description: Serving the community with honest pricing and top-notch service.
         buttons:
           - _bookshop_name: generic/button
@@ -52,23 +52,23 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup: null
-        contrastAgainst: null
-        textClassOverride: null
+        contrastColorGroup:
+        contrastAgainst:
+        textClassOverride:
     image:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/home/mechanic-crossed-arms.jpg
-      imageAlt: null
-      yAxisPosition: null
-      imageSizes: null
-      class: null
+      imageAlt:
+      yAxisPosition:
+      imageSizes:
+      class:
   styles:
     color_group: primary
     headingRight: false
 content_blocks:
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -84,9 +84,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: true
       reviews:
         - review: 49301fcb-2c3e-4143-b164-23a71185410c
@@ -95,7 +95,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -111,16 +111,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showNote: true
     styles:
       color_group: primary
       cardStyle: defaultCard
   - _bookshop_name: sections/simpleCta
     content:
-      sectionId: null
+      sectionId:
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -144,14 +144,14 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: primary
   - _bookshop_name: sections/sideBySideStandard
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -167,9 +167,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       entries:
         - _bookshop_name: generic/leftRight
           content:
@@ -219,16 +219,16 @@ content_blocks:
                 visualInterest: none
                 visualInterestColor: '#000000'
                 highContrast: false
-                contrastColorGroup: null
-                contrastAgainst: null
-                textClassOverride: null
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/professional-mechanic/two-mechanics.jpg
-              imageAlt: null
-              yAxisPosition: null
-              imageSizes: null
-              class: null
+              imageAlt:
+              yAxisPosition:
+              imageSizes:
+              class:
             entryNumber: 0
           styles:
             color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
@@ -239,7 +239,7 @@ content_blocks:
       fullWidth: true
   - _bookshop_name: sections/mediaCards
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -255,9 +255,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - _bookshop_name: generic/mediaCards/defaultMediaCard
           content:
@@ -288,16 +288,16 @@ content_blocks:
                 visualInterest: none
                 visualInterestColor: '#000000'
                 highContrast: false
-                contrastColorGroup: null
-                contrastAgainst: null
-                textClassOverride: null
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/oil-change-discount.jpg
-              imageAlt: null
-              yAxisPosition: null
-              imageSizes: null
-              class: null
+              imageAlt:
+              yAxisPosition:
+              imageSizes:
+              class:
           styles:
             color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
             colorFromGroup: background
@@ -329,16 +329,16 @@ content_blocks:
                 visualInterest: none
                 visualInterestColor: '#000000'
                 highContrast: false
-                contrastColorGroup: null
-                contrastAgainst: null
-                textClassOverride: null
+                contrastColorGroup:
+                contrastAgainst:
+                textClassOverride:
             image:
               _bookshop_name: generic/image
               imagePath: /assets/uploads/professional-mechanic/free-brake-inspection.jpg
-              imageAlt: null
+              imageAlt:
               yAxisPosition: 50
-              imageSizes: null
-              class: null
+              imageSizes:
+              class:
           styles:
             color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
             colorFromGroup: background
@@ -346,7 +346,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/reviewCards
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -362,9 +362,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: false
       reviews:
         - review: 49301fcb-2c3e-4143-b164-23a71185410c
@@ -389,7 +389,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId: null
+      sectionId:
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -413,16 +413,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       card_color_group: primary
       colorFromGroup: primary
   - _bookshop_name: sections/basicFormWithImage
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -438,21 +438,21 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       image:
         _bookshop_name: generic/image
-        imagePath: null
-        imageAlt: null
-        yAxisPosition: null
-        imageSizes: null
-        class: null
+        imagePath:
+        imageAlt:
+        yAxisPosition:
+        imageSizes:
+        class:
       form:
         _bookshop_name: simple/formBuilder
-        formName: null
-        sectionId: null
-        successPage: null
+        formName:
+        sectionId:
+        successPage:
         form_elements: []
         submitButton:
           text: Submit
@@ -473,4 +473,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-

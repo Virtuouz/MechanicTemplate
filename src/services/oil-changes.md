@@ -459,9 +459,9 @@ content_blocks:
           ---
 
 
-          **Q: Are there any hidden fees?**<br>A: Absolutely not! At \[Mechanic
-          Shop Name\], we believe in transparent pricing. We’ll provide a clear
-          estimate before starting any work, so there are no surprises.
+          **Q: Are there any hidden fees?**<br>A: Absolutely not! At
+          \[\[st.name\]\], we believe in transparent pricing. We’ll provide a
+          clear estimate before starting any work, so there are no surprises.
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/coloredCTA

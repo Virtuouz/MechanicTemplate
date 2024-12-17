@@ -26,7 +26,7 @@ hero:
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: Expert A/C and Heating Repair Services in \[\[tk.area\]
+        headline: Expert A/C and Heating Repair Services in \[\[tk.area\]\]
         description: >-
           Stay comfortable year-round with reliable air conditioning and heating
           repairs

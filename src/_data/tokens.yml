@@ -1,4 +1,6 @@
 token_list:
+  - key: test
+    value: hola there
 _inputs:
   token_list:
     type: array

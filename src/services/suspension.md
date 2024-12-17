@@ -4,14 +4,14 @@ draft: false
 eleventyExcludeFromCollections: false
 disableNav: false
 title: Suspension
-metaDesc: null
+metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
 serviceImage: /assets/uploads/car-suspension-1.jpg
-imageAltText: null
+imageAltText:
 category: Repair
-summary: null
+summary:
 permalink: >-
   /services/{% assign title = title | slugify %}{{ page.filePathStem |
   fileSubstringFilter | append: title | downcase }}/index.html
@@ -20,13 +20,13 @@ id: 98449cb8-ea81-40e3-b47f-092b0ded8839
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId: null
+    sectionId:
     heading:
       _bookshop_name: generic/heading
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: 'Professional Suspension Repair and Maintenance in \[City\]'
+        headline: Professional Suspension Repair and Maintenance in \[\[tk.area\]\]
         description: >-
           Smooth rides start with expert suspension care—let us keep you
           comfortable and in control.
@@ -46,16 +46,16 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup: null
-        contrastAgainst: null
-        textClassOverride: null
+        contrastColorGroup:
+        contrastAgainst:
+        textClassOverride:
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/car-suspension-1.jpg
-      imageAlt: null
-      yAxisPosition: null
-      imageSizes: null
-      class: null
+      imageAlt:
+      yAxisPosition:
+      imageSizes:
+      class:
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
@@ -63,7 +63,7 @@ content_blocks:
   - _bookshop_name: sections/featuresCenterImage
     content:
       showNote: true
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -72,11 +72,11 @@ content_blocks:
           headline: Service overview
           description: >-
             Your vehicle's suspension system ensures a smooth, safe ride by
-            absorbing road impacts and maintaining control. At \[Mechanic Shop
-            Name\], we specialize in diagnosing and repairing suspension issues,
-            from worn-out shocks and struts to alignment problems. With our
-            expert care, you’ll enjoy better handling, improved comfort, and
-            enhanced vehicle safety.
+            absorbing road impacts and maintaining control. At \[\[st.name\]\],
+            we specialize in diagnosing and repairing suspension issues, from
+            worn-out shocks and struts to alignment problems. With our expert
+            care, you’ll enjoy better handling, improved comfort, and enhanced
+            vehicle safety.
           buttons: []
           headingHierarchy: h2
         styles:
@@ -85,9 +85,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -106,9 +106,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -124,9 +124,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -144,9 +144,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -162,16 +162,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
       image:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/suspension/car-suspension-service.jpg
-        imageAlt: null
-        yAxisPosition: null
-        imageSizes: null
-        class: null
+        imageAlt:
+        yAxisPosition:
+        imageSizes:
+        class:
       buttons:
         - _bookshop_name: generic/button
           url: '#'
@@ -188,7 +188,7 @@ content_blocks:
       imageVisualInterest: none
   - _bookshop_name: sections/informationCards
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -204,9 +204,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -225,9 +225,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -248,9 +248,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -268,9 +268,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -288,9 +288,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -308,16 +308,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -333,16 +333,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
           When it comes to your vehicle’s suspension, precision and expertise
-          are key. At \[Mechanic Shop Name\], we’re committed to providing
-          top-quality suspension services that keep you safe and comfortable on
-          the road. Here’s why drivers in \[City/Area\] trust us:
+          are key. At \[\[st.name\]\], we’re committed to providing top-quality
+          suspension services that keep you safe and comfortable on the road.
+          Here’s why drivers in \[\[tk.area\]\] trust us:
 
 
           1. **Specialized Suspension Technicians**<br>Our certified experts
@@ -379,13 +379,13 @@ content_blocks:
 
 
           **Don’t settle for less when it comes to your suspension. Choose
-          \[Mechanic Shop Name\] for expert care and a smoother ride. Schedule
-          your service today!**
+          \[\[st.name\]\] for expert care and a smoother ride. Schedule your
+          service today!**
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -401,9 +401,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: true
       reviews:
         - review: 90026f09-7703-43e8-9294-f79ea1159d63
@@ -411,7 +411,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -427,9 +427,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -461,15 +461,15 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId: null
+      sectionId:
       CallToAction:
         _bookshop_name: generic/heading
         content:
           highlightEyebrow: false
           eyebrow: ''
           headline: >-
-            Schedule your professional suspension service with \[Mechanic Shop
-            Name\] today!
+            Schedule your professional suspension service with \[\[st.name\]\]
+            today!
           description: Don’t let suspension problems ruin your ride
           buttons:
             - _bookshop_name: generic/button
@@ -487,16 +487,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: primary
       card_color_group: primary
       colorFromGroup: primary
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -512,9 +512,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showNote: true
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
@@ -527,4 +527,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-

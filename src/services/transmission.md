@@ -4,14 +4,14 @@ draft: false
 eleventyExcludeFromCollections: false
 disableNav: false
 title: Transmission
-metaDesc: null
+metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
 serviceImage: /assets/uploads/transmission-service.jpg
-imageAltText: null
+imageAltText:
 category: Repair
-summary: null
+summary:
 permalink: >-
   /services/{% assign title = title | slugify %}{{ page.filePathStem |
   fileSubstringFilter | append: title | downcase }}/index.html
@@ -20,13 +20,13 @@ id: b6cccd62-1235-4bbb-bd07-12612c581fee
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId: null
+    sectionId:
     heading:
       _bookshop_name: generic/heading
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: 'Expert Transmission Repair and Maintenance in \[City\]'
+        headline: Expert Transmission Repair and Maintenance in \[\[tk.area\]\]
         description: >-
           Keep your vehicle running smoothly with reliable transmission services
           tailored to your needs.
@@ -46,16 +46,16 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup: null
-        contrastAgainst: null
-        textClassOverride: null
+        contrastColorGroup:
+        contrastAgainst:
+        textClassOverride:
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/transmission-service.jpg
-      imageAlt: null
-      yAxisPosition: null
-      imageSizes: null
-      class: null
+      imageAlt:
+      yAxisPosition:
+      imageSizes:
+      class:
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 70
@@ -63,7 +63,7 @@ content_blocks:
   - _bookshop_name: sections/featuresCenterImage
     content:
       showNote: true
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -73,10 +73,10 @@ content_blocks:
           description: >-
             Your transmission is one of the most critical components of your
             vehicle, responsible for delivering power from the engine to the
-            wheels. At \[Mechanic Shop Name\], we offer professional
-            transmission repair and maintenance services to keep your vehicle
-            performing at its best. From fluid changes to full rebuilds, our
-            experienced technicians handle it all with precision and care.
+            wheels. At \[\[st.name\]\], we offer professional transmission
+            repair and maintenance services to keep your vehicle performing at
+            its best. From fluid changes to full rebuilds, our experienced
+            technicians handle it all with precision and care.
           buttons: []
           headingHierarchy: h2
         styles:
@@ -85,9 +85,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -104,9 +104,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -124,9 +124,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -144,16 +144,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
               highlightEyebrow: false
               eyebrow: ''
               headline: Expert Care for All Transmissions
-              description: 'Whether automatic, manual, or CVT, we specialize in all types.'
+              description: Whether automatic, manual, or CVT, we specialize in all types.
               buttons: []
               headingHierarchy: h2
             styles:
@@ -162,16 +162,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
       image:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/transmission/service-transmission.jpg
-        imageAlt: null
-        yAxisPosition: null
-        imageSizes: null
-        class: null
+        imageAlt:
+        yAxisPosition:
+        imageSizes:
+        class:
       buttons:
         - _bookshop_name: generic/button
           url: '#'
@@ -188,7 +188,7 @@ content_blocks:
       imageVisualInterest: none
   - _bookshop_name: sections/informationCards
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -204,9 +204,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -223,9 +223,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -243,9 +243,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -263,9 +263,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -283,9 +283,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -304,16 +304,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -329,17 +329,17 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
           When it comes to your vehicle’s transmission, you need reliable,
-          skilled professionals who deliver lasting results. At \[Mechanic Shop
-          Name\], we take pride in providing exceptional transmission repair and
+          skilled professionals who deliver lasting results. At \[\[st.name\]\],
+          we take pride in providing exceptional transmission repair and
           maintenance services that keep your car running smoothly. Here’s why
-          drivers in \[City/Area\] trust us:
+          drivers in \[\[tk.area\]\] trust us:
 
 
           1. **Expert Transmission Specialists**<br>Our certified technicians
@@ -376,17 +376,17 @@ content_blocks:
 
           9. **Local Reputation You Can Count On**<br>With years of experience
           and countless satisfied customers, we’ve earned a reputation as the
-          trusted choice for transmission services in \[City/Area\].
+          trusted choice for transmission services in \[\[tk.area\]\].
 
 
           **When it comes to your transmission, don’t settle for anything less
-          than the best. Choose \[Mechanic Shop Name\] for expert care and
-          service you can rely on. Schedule your transmission service today!**
+          than the best. Choose \[\[st.name\]\] for expert care and service you
+          can rely on. Schedule your transmission service today!**
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -402,9 +402,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: true
       reviews:
         - review: 49301fcb-2c3e-4143-b164-23a71185410c
@@ -412,7 +412,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -428,9 +428,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -463,7 +463,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId: null
+      sectionId:
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -471,8 +471,8 @@ content_blocks:
           eyebrow: ''
           headline: Don’t let transmission issues slow you down
           description: >-
-            Schedule your professional transmission service with \[Mechanic Shop
-            Name\] today and keep your vehicle running smoothly!
+            Schedule your professional transmission service with \[\[st.name\]\]
+            today and keep your vehicle running smoothly!
           buttons:
             - _bookshop_name: generic/button
               url: '#'
@@ -489,16 +489,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: primary
       card_color_group: primary
       colorFromGroup: primary
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -514,9 +514,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showNote: true
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
@@ -529,4 +529,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-

@@ -32,11 +32,11 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-We’re excited to welcome new customers to \[Mechanic Shop Name\] with a special offer! For a limited time, first-time visitors can enjoy **$10 off** their next oil change.
+We’re excited to welcome new customers to \[\[st.name\]\] with a special offer! For a limited time, first-time visitors can enjoy **$10 off** their next oil change.
 
 Whether it’s your daily driver or your weekend cruiser, regular oil changes are essential to keep your engine running smoothly and efficiently. Let us help you stay on top of your car’s maintenance while saving a little extra.
 
-Don’t wait—book your appointment today to take advantage of this exclusive discount. We can’t wait to meet you and show you why \[Mechanic Shop Name\] is the trusted choice for drivers in \[City/Area\].
+Don’t wait—book your appointment today to take advantage of this exclusive discount. We can’t wait to meet you and show you why \[\[st.name\]\] is the trusted choice for drivers in \[\[tk.area\]\].
 
 **Click below to schedule your oil change now!**<br>[Schedule My Appointment](#)
 

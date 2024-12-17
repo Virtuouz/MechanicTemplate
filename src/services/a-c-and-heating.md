@@ -439,9 +439,7 @@ content_blocks:
         content:
           highlightEyebrow: false
           eyebrow: Don’t let the weather make you uncomfortable.
-          headline: >-
-            Schedule your A/C and heating repair with \[Mechanic Shop Name\]
-            today!
+          headline: Schedule your A/C and heating repair with \[\[st.name\]\] today!
           description: ''
           buttons:
             - _bookshop_name: generic/button

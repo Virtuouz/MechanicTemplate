@@ -4,14 +4,14 @@ draft: false
 eleventyExcludeFromCollections: false
 disableNav: false
 title: Oil Changes
-metaDesc: null
+metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
 serviceImage: /assets/uploads/oil-change.jpg
-imageAltText: null
+imageAltText:
 category: Maintenance
-summary: null
+summary:
 permalink: >-
   /services/{% assign title = title | slugify %}{{ page.filePathStem |
   fileSubstringFilter | append: title | downcase }}/index.html
@@ -20,13 +20,13 @@ id: e2ef90cf-e83f-4b86-8891-04f45ff24aa3
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId: null
+    sectionId:
     heading:
       _bookshop_name: generic/heading
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: 'Professional Oil Change Services in \[City\]'
+        headline: Professional Oil Change Services in \[\[tk.area\]\]
         description: >-
           Quick, affordable, and hassle-free oil changes to keep your engine
           running smoothly.
@@ -46,16 +46,16 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup: null
-        contrastAgainst: null
-        textClassOverride: null
+        contrastColorGroup:
+        contrastAgainst:
+        textClassOverride:
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/oil-change.jpg
-      imageAlt: null
-      yAxisPosition: null
-      imageSizes: null
-      class: null
+      imageAlt:
+      yAxisPosition:
+      imageSizes:
+      class:
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
@@ -63,7 +63,7 @@ content_blocks:
   - _bookshop_name: sections/featuresCenterImage
     content:
       showNote: true
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -72,9 +72,9 @@ content_blocks:
           headline: Service Overview
           description: >-
             Regular oil changes are essential to keeping your vehicle running
-            smoothly and efficiently. At \[Mechanic Shop Name\], we go beyond
-            just draining and refilling oil—we provide a comprehensive service
-            to protect your engine and extend its lifespan.
+            smoothly and efficiently. At \[\[st.name\]\], we go beyond just
+            draining and refilling oil—we provide a comprehensive service to
+            protect your engine and extend its lifespan.
           buttons: []
           headingHierarchy: h2
         styles:
@@ -83,9 +83,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -104,9 +104,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -122,9 +122,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -142,15 +142,15 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
               highlightEyebrow: false
               eyebrow: ''
-              headline: 'Fast, Friendly Service'
+              headline: Fast, Friendly Service
               description: >-
                 Get back on the road quickly with our skilled technicians and
                 efficient process.
@@ -162,16 +162,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
       image:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/oil-changes/oil-change-veritical.jpg
-        imageAlt: null
-        yAxisPosition: null
-        imageSizes: null
-        class: null
+        imageAlt:
+        yAxisPosition:
+        imageSizes:
+        class:
       buttons:
         - _bookshop_name: generic/button
           url: '#'
@@ -188,7 +188,7 @@ content_blocks:
       imageVisualInterest: none
   - _bookshop_name: sections/informationCards
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -204,9 +204,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -225,9 +225,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -245,9 +245,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -272,9 +272,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -293,16 +293,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -318,15 +318,15 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
-          At \[Mechanic Shop Name\], we know you have choices when it comes to
-          caring for your vehicle. Here’s why drivers in \[City/Area\] trust us
-          for their oil change needs:
+          At \[\[st.name\]\], we know you have choices when it comes to caring
+          for your vehicle. Here’s why drivers in \[\[tk.area\]\] trust us for
+          their oil change needs:
 
 
           1. **Experienced Technicians**<br>Our certified mechanics bring years
@@ -351,7 +351,7 @@ content_blocks:
           every visit as smooth as possible.
 
 
-          When you choose \[Mechanic Shop Name\], you’re not just getting an oil
+          When you choose \[\[st.name\]\], you’re not just getting an oil
           change—you’re getting peace of mind and top-notch service you can
           count on.
 
@@ -362,7 +362,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -378,9 +378,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: true
       reviews:
         - review: cf32b299-8ad1-46c9-a970-60c98b1595bc
@@ -388,7 +388,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -404,17 +404,17 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
           **Q: Why can’t I just change my oil at home?**<br>A: While it’s
           possible to change your oil yourself, it can be messy, time-consuming,
-          and requires the right tools and expertise. At \[Mechanic Shop Name\],
-          we handle everything for you, including proper disposal of old oil,
-          using the right oil for your vehicle, and performing a multi-point
+          and requires the right tools and expertise. At \[\[st.name\]\], we
+          handle everything for you, including proper disposal of old oil, using
+          the right oil for your vehicle, and performing a multi-point
           inspection to catch potential issues early. Plus, you’ll save time and
           avoid the hassle!
 
@@ -466,7 +466,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId: null
+      sectionId:
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -490,16 +490,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: primary
       card_color_group: primary
       colorFromGroup: primary
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -515,9 +515,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showNote: true
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
@@ -530,4 +530,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-

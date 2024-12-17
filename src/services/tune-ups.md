@@ -4,14 +4,14 @@ draft: false
 eleventyExcludeFromCollections: false
 disableNav: false
 title: Tune Ups
-metaDesc: null
+metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
 serviceImage: /assets/uploads/tune-up.jpg
-imageAltText: null
+imageAltText:
 category: Maintenance
-summary: null
+summary:
 permalink: >-
   /services/{% assign title = title | slugify %}{{ page.filePathStem |
   fileSubstringFilter | append: title | downcase }}/index.html
@@ -20,13 +20,13 @@ id: 111fed76-3de4-4508-94d4-a698953a26e9
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId: null
+    sectionId:
     heading:
       _bookshop_name: generic/heading
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: 'Professional Tune-Up Services in \[City\]'
+        headline: Professional Tune-Up Services in \[\[tk.area\]\]
         description: >-
           Boost your vehicle’s performance and efficiency with expert tune-ups
           tailored to your needs.
@@ -46,16 +46,16 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup: null
-        contrastAgainst: null
-        textClassOverride: null
+        contrastColorGroup:
+        contrastAgainst:
+        textClassOverride:
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/tune-up.jpg
-      imageAlt: null
-      yAxisPosition: null
-      imageSizes: null
-      class: null
+      imageAlt:
+      yAxisPosition:
+      imageSizes:
+      class:
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
@@ -63,7 +63,7 @@ content_blocks:
   - _bookshop_name: sections/featuresCenterImage
     content:
       showNote: true
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -72,8 +72,8 @@ content_blocks:
           headline: Service overview
           description: >-
             Regular tune-ups are essential for maintaining your vehicle’s
-            performance, efficiency, and reliability. At \[Mechanic Shop Name\],
-            we provide comprehensive tune-up services, including spark plug
+            performance, efficiency, and reliability. At \[\[st.name\]\], we
+            provide comprehensive tune-up services, including spark plug
             replacement, air filter changes, and system checks, to keep your car
             running like new. Our expert technicians ensure your engine is
             optimized for maximum performance and fuel efficiency.
@@ -85,9 +85,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -106,9 +106,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -126,9 +126,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -144,9 +144,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -162,16 +162,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
       image:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/tune-ups/care-tune-up-service.jpg
-        imageAlt: null
-        yAxisPosition: null
-        imageSizes: null
-        class: null
+        imageAlt:
+        yAxisPosition:
+        imageSizes:
+        class:
       buttons: []
     styles:
       color_group: primary
@@ -180,7 +180,7 @@ content_blocks:
       imageVisualInterest: none
   - _bookshop_name: sections/informationCards
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -196,9 +196,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -217,9 +217,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -237,9 +237,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -257,9 +257,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -278,16 +278,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -303,17 +303,17 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
           When it comes to keeping your vehicle in peak condition, a
-          professional tune-up can make all the difference. At \[Mechanic Shop
-          Name\], we’re committed to providing exceptional service to optimize
-          your car’s performance and fuel efficiency. Here’s why drivers in
-          \[City/Area\] trust us for their tune-ups:
+          professional tune-up can make all the difference. At \[\[st.name\]\],
+          we’re committed to providing exceptional service to optimize your
+          car’s performance and fuel efficiency. Here’s why drivers in
+          \[\[tk.area\]\] trust us for their tune-ups:
 
 
           1. **Certified Tune-Up Experts**<br>Our highly skilled technicians
@@ -348,19 +348,18 @@ content_blocks:
           of vehicles with precision.
 
           9. **Trusted Reputation**<br>Backed by years of experience and glowing
-          reviews, we’ve earned the trust of drivers throughout \[City/Area\] as
-          the go-to destination for reliable vehicle maintenance.
+          reviews, we’ve earned the trust of drivers throughout \[\[tk.area\]\]
+          as the go-to destination for reliable vehicle maintenance.
 
 
-          **Give your car the attention it deserves. Choose \[Mechanic Shop
-          Name\] for expert tune-ups and experience the difference in
-          performance, efficiency, and reliability. Schedule your service
-          today!**
+          **Give your car the attention it deserves. Choose \[\[st.name\]\] for
+          expert tune-ups and experience the difference in performance,
+          efficiency, and reliability. Schedule your service today!**
     styles:
       color_group: primary
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -376,9 +375,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: true
       reviews:
         - review: 32e413d3-3ddc-4acd-ae42-ffb13de752fc
@@ -386,7 +385,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -402,9 +401,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -437,7 +436,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId: null
+      sectionId:
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -445,8 +444,8 @@ content_blocks:
           eyebrow: ''
           headline: Ready to give your vehicle the care it deserves
           description: >-
-            Schedule your professional tune-up with \[Mechanic Shop Name\] today
-            and enjoy better performance and efficiency!
+            Schedule your professional tune-up with \[\[st.name\]\] today and
+            enjoy better performance and efficiency!
           buttons:
             - _bookshop_name: generic/button
               url: '#'
@@ -463,16 +462,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
     styles:
       color_group: primary
       card_color_group: primary
       colorFromGroup: primary
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -488,9 +487,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showNote: true
     styles:
       color_group: primary
@@ -503,4 +502,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-

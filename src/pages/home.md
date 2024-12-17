@@ -180,15 +180,15 @@ content_blocks:
                 eyebrow: ''
                 headline: In business since 2007
                 description: >-
-                  Welcome to \[Mechanic Shop Name\], where quality, honesty, and
+                  Welcome to \[\[st.name\]\], where quality, honesty, and
                   reliability drive everything we do. Located in the heart of
-                  \[City/Area\], our shop has been proudly serving the community
-                  for over \[X years\]. Whether you're here for routine
-                  maintenance, complex repairs, or diagnostics, we treat every
-                  vehicle like it’s our own.
+                  \[\[tk.area\]\], our shop has been proudly serving the
+                  community for over \[X years\]. Whether you're here for
+                  routine maintenance, complex repairs, or diagnostics, we treat
+                  every vehicle like it’s our own.
 
 
-                  At \[Mechanic Shop Name\], we believe in more than just fixing
+                  At \[\[st.name\]\], we believe in more than just fixing
                   cars—we believe in building trust. Our team of certified
                   technicians combines years of expertise with cutting-edge
                   tools to ensure your vehicle gets the care it deserves. From
@@ -204,13 +204,13 @@ content_blocks:
                   your experience as seamless as possible.
 
 
-                  When you choose \[Mechanic Shop Name\], you're choosing a
-                  local business that values hard work, integrity, and
-                  community. Stop by today or give us a call to see how we can
-                  help keep your vehicle running smoothly.
+                  When you choose \[\[st.name\]\], you're choosing a local
+                  business that values hard work, integrity, and community. Stop
+                  by today or give us a call to see how we can help keep your
+                  vehicle running smoothly.
 
 
-                  *“At \[Mechanic Shop Name\], your journey is our priority.”*
+                  *“At \[\[st.name\]\], your journey is our priority.”*
                 buttons: []
                 headingHierarchy: h2
               styles:

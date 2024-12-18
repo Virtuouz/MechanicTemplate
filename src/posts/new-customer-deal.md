@@ -38,6 +38,6 @@ Whether it’s your daily driver or your weekend cruiser, regular oil changes ar
 
 Don’t wait—book your appointment today to take advantage of this exclusive discount. We can’t wait to meet you and show you why \[\[st.name\]\] is the trusted choice for drivers in \[\[tk.area\]\].
 
-**Click below to schedule your oil change now!**<br>[Schedule My Appointment](#)
+**Click below to schedule your oil change now!**<br>[Schedule My Appointment](/contact/)
 
 *Offer valid for new customers only. Cannot be combined with other promotions. Expires \[2025-12-31\].*

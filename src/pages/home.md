@@ -38,7 +38,7 @@ hero:
         description: Serving the community with honest pricing and top-notch service.
         buttons:
           - _bookshop_name: generic/button
-            url: '#'
+            url: /contact/
             openInNewTab: false
             text: Schedule your service now
             color_group: primary
@@ -130,7 +130,7 @@ content_blocks:
           description: ''
           buttons:
             - _bookshop_name: generic/button
-              url: '#'
+              url: /contact/
               openInNewTab: false
               text: Book an appointment
               color_group: primary
@@ -274,7 +274,7 @@ content_blocks:
                   routine maintenance.
                 buttons:
                   - _bookshop_name: generic/button
-                    url: '#'
+                    url: /contact/
                     openInNewTab: false
                     text: Claim now
                     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
@@ -315,7 +315,7 @@ content_blocks:
                   are in top condition and drive with confidence.
                 buttons:
                   - _bookshop_name: generic/button
-                    url: '#'
+                    url: /contact/
                     openInNewTab: false
                     text: Claim now
                     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
@@ -399,7 +399,7 @@ content_blocks:
           description: ''
           buttons:
             - _bookshop_name: generic/button
-              url: '#'
+              url: /contact/
               openInNewTab: false
               text: Book an appointment
               color_group: primary
@@ -420,49 +420,6 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       card_color_group: primary
       colorFromGroup: primary
-  - _bookshop_name: sections/basicFormWithImage
-    content:
-      sectionId:
-      heading:
-        _bookshop_name: generic/heading
-        content:
-          highlightEyebrow: false
-          eyebrow: ''
-          headline: heading
-          description: ''
-          buttons: []
-          headingHierarchy: h2
-        styles:
-          contentAlignment: center
-          textAlignment: center
-          visualInterest: none
-          visualInterestColor: '#000000'
-          highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
-      image:
-        _bookshop_name: generic/image
-        imagePath:
-        imageAlt:
-        yAxisPosition:
-        imageSizes:
-        class:
-      form:
-        _bookshop_name: simple/formBuilder
-        formName:
-        sectionId:
-        successPage:
-        form_elements: []
-        submitButton:
-          text: Submit
-          color_group: primary
-          colorFromGroup: primary
-          ghostButton: false
-          formSubmit: true
-    styles:
-      color_group: primary
-      form_color_group: primary
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation

@@ -8,9 +8,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Contact
   order: 9
-  title: null
-  parent: null
-  url: null
+  title:
+  parent:
+  url:
 pageLink: contact
 permalink: >-
   {% capture varPagePath %}{% if pageLink%}{% assign pageLink = pageLink |
@@ -25,18 +25,48 @@ customCode:
   headCode: ''
   bodyCode: ''
 layout: layouts/page.html
-hero: null
+hero:
+  _bookshop_name: sections/bannerHero
+  content:
+    sectionId:
+    heading:
+      _bookshop_name: generic/heading
+      content:
+        highlightEyebrow: false
+        eyebrow: ''
+        headline: Reach out to us
+        description: ''
+        buttons: []
+        headingHierarchy: h2
+      styles:
+        contentAlignment: center
+        textAlignment: center
+        visualInterest: none
+        visualInterestColor: '#000000'
+        highContrast: false
+        contrastColorGroup:
+        contrastAgainst:
+        textClassOverride:
+    backgroundImage:
+      _bookshop_name: generic/image
+      imagePath: /assets/uploads/contact-us/contact-us.jpg
+      imageAlt:
+      yAxisPosition: 0
+      imageSizes:
+      class:
+  styles:
+    color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
+    backgroundOpacity: 50
 content_blocks:
-  - _bookshop_name: sections/largeEmbed
+  - _bookshop_name: sections/simpleForm
     content:
-      sectionId: null
-      showNote: true
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
           highlightEyebrow: false
           eyebrow: ''
-          headline: heading
+          headline: Tell us about your situation
           description: ''
           buttons: []
           headingHierarchy: h2
@@ -46,44 +76,78 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
-      embed:
-        _bookshop_name: generic/customEmbed
-        embed: null
-        ratio: auto
-      buttons: []
-    styles:
-      color_group: primary
-  - _bookshop_name: sections/5050ImageForm
-    content:
-      sectionId: null
-      heading:
-        _bookshop_name: generic/heading
-        content:
-          highlightEyebrow: false
-          eyebrow: ''
-          headline: heading
-          description: ''
-          buttons: []
-          headingHierarchy: h2
-        styles:
-          contentAlignment: center
-          textAlignment: center
-          visualInterest: none
-          visualInterestColor: '#000000'
-          highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
-      image: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       form:
         _bookshop_name: simple/formBuilder
-        formName: null
-        sectionId: null
-        successPage: null
-        form_elements: []
+        formName:
+        sectionId:
+        successPage:
+        form_elements:
+          - _bookshop_name: generic/form/textInput
+            label: First Name
+            placeholder: John
+            id: 0a7db4b9-356a-41c4-85be-dc72f68f681c
+            required: true
+            helperText:
+          - _bookshop_name: generic/form/textInput
+            label: Last Name
+            placeholder: Doe
+            id: 581c7d38-043f-4d9d-800f-7b1d164289cf
+            required: true
+            helperText:
+          - _bookshop_name: generic/form/emailInput
+            label: Email
+            id: b39e3543-1ffc-4a69-9857-48e97947377e
+            required: true
+            placeholder: jdoe@example.com
+            helperText:
+          - _bookshop_name: generic/form/phoneInput
+            label: Phone
+            id: fc5da902-d8d9-4c06-9595-75306232dfb9
+            required: true
+            placeholder: 123 456 7890
+            helperText:
+          - _bookshop_name: generic/form/textInput
+            label: Vehicle year make model
+            placeholder: 2016 Toyota Camry
+            id: 0fa22405-1cd3-4244-bc04-85ddd8495868
+            required: true
+            helperText:
+          - _bookshop_name: generic/form/radioButtonGroup
+            label: Preferred appointment time
+            id: d69538e8-4907-409f-a64c-69e3caaaa47a
+            radioButtons:
+              - label: Morning
+                id: d4d5fbaa-b2f4-468a-8eef-366060ade754
+                checked: true
+                required: false
+              - label: Evening
+                id: ec8a30d1-9605-4315-8874-7ddd3425caae
+                checked: false
+                required: false
+            arrangement: stacked
+            helperText:
+          - _bookshop_name: generic/form/textAreaInput
+            label: Message
+            placeholder: ''
+            id: b8a23f9d-5f7e-4149-9853-6b90586823bb
+            rows: 7
+            required: false
+            helperText: >-
+              What service are you looking to receive, or describe your problem.
+              The more information the better.
+          - _bookshop_name: generic/form/fileInput
+            label: Relevant photo
+            id: ac958556-8fbb-4e22-b579-f862331e20f1
+            customAccept: false
+            acceptSelection:
+              - image/*
+            acceptCSV:
+            required: false
+            placeholder:
+            helperText: If you have any pictures of your  problem please include those.
         submitButton:
           text: Submit
           color_group: primary
@@ -92,31 +156,6 @@ content_blocks:
           formSubmit: true
     styles:
       color_group: primary
-  - _bookshop_name: sections/coloredCTA
-    content:
-      sectionId: null
-      CallToAction:
-        _bookshop_name: generic/heading
-        content:
-          highlightEyebrow: false
-          eyebrow: ''
-          headline: heading
-          description: ''
-          buttons: []
-          headingHierarchy: h2
-        styles:
-          contentAlignment: center
-          textAlignment: center
-          visualInterest: none
-          visualInterestColor: '#000000'
-          highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
-    styles:
-      color_group: primary
-      card_color_group: primary
-      colorFromGroup: primary
 _inputs:
   eleventyNavigation:
     hidden: removeFromNavigation
@@ -127,4 +166,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-

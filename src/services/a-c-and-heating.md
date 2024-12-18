@@ -32,7 +32,7 @@ hero:
           repairs
         buttons:
           - _bookshop_name: generic/button
-            url: '#'
+            url: /contact/
             openInNewTab: false
             text: Schedule your service today
             color_group: primary
@@ -179,7 +179,7 @@ content_blocks:
         class:
       buttons:
         - _bookshop_name: generic/button
-          url: '#'
+          url: /contact/
           openInNewTab: false
           text: Schedule your service today
           color_group: primary
@@ -443,7 +443,7 @@ content_blocks:
           description: ''
           buttons:
             - _bookshop_name: generic/button
-              url: '#'
+              url: /contact/
               openInNewTab: false
               text: schedule AC/Heating service
               color_group: primary

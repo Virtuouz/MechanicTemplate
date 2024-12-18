@@ -81,9 +81,9 @@ content_blocks:
           textClassOverride:
       form:
         _bookshop_name: simple/formBuilder
-        formName:
+        formName: Contact
         sectionId:
-        successPage:
+        successPage: /submission/success/
         form_elements:
           - _bookshop_name: generic/form/textInput
             label: First Name

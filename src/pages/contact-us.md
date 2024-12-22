@@ -8,9 +8,9 @@ removeFromNavigation: false
 eleventyNavigation:
   key: Contact
   order: 9
-  title:
-  parent:
-  url:
+  title: null
+  parent: null
+  url: null
 pageLink: contact
 permalink: >-
   {% capture varPagePath %}{% if pageLink%}{% assign pageLink = pageLink |
@@ -28,7 +28,7 @@ layout: layouts/page.html
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId:
+    sectionId: null
     heading:
       _bookshop_name: generic/heading
       content:
@@ -44,23 +44,23 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup:
-        contrastAgainst:
-        textClassOverride:
+        contrastColorGroup: null
+        contrastAgainst: null
+        textClassOverride: null
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/contact-us/contact-us.jpg
-      imageAlt:
+      imageAlt: null
       yAxisPosition: 0
-      imageSizes:
-      class:
+      imageSizes: null
+      class: null
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
 content_blocks:
   - _bookshop_name: sections/simpleForm
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -76,13 +76,13 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       form:
         _bookshop_name: simple/formBuilder
         formName: Contact
-        sectionId:
+        sectionId: null
         successPage: /submission/success/
         form_elements:
           - _bookshop_name: generic/form/textInput
@@ -90,31 +90,31 @@ content_blocks:
             placeholder: John
             id: 0a7db4b9-356a-41c4-85be-dc72f68f681c
             required: true
-            helperText:
+            helperText: null
           - _bookshop_name: generic/form/textInput
             label: Last Name
             placeholder: Doe
             id: 581c7d38-043f-4d9d-800f-7b1d164289cf
             required: true
-            helperText:
+            helperText: null
           - _bookshop_name: generic/form/emailInput
             label: Email
             id: b39e3543-1ffc-4a69-9857-48e97947377e
             required: true
             placeholder: jdoe@example.com
-            helperText:
+            helperText: null
           - _bookshop_name: generic/form/phoneInput
             label: Phone
             id: fc5da902-d8d9-4c06-9595-75306232dfb9
             required: true
             placeholder: 123 456 7890
-            helperText:
+            helperText: null
           - _bookshop_name: generic/form/textInput
             label: Vehicle year make model
             placeholder: 2016 Toyota Camry
             id: 0fa22405-1cd3-4244-bc04-85ddd8495868
             required: true
-            helperText:
+            helperText: null
           - _bookshop_name: generic/form/radioButtonGroup
             label: Preferred appointment time
             id: d69538e8-4907-409f-a64c-69e3caaaa47a
@@ -128,7 +128,7 @@ content_blocks:
                 checked: false
                 required: false
             arrangement: stacked
-            helperText:
+            helperText: null
           - _bookshop_name: generic/form/textAreaInput
             label: Message
             placeholder: ''
@@ -144,9 +144,9 @@ content_blocks:
             customAccept: false
             acceptSelection:
               - image/*
-            acceptCSV:
+            acceptCSV: null
             required: false
-            placeholder:
+            placeholder: null
             helperText: If you have any pictures of your  problem please include those.
         submitButton:
           text: Submit
@@ -166,3 +166,4 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
+

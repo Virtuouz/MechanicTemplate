@@ -8,9 +8,9 @@ removeFromNavigation: true
 eleventyNavigation:
   key: page
   order: 1
-  title:
-  parent:
-  url:
+  title: null
+  parent: null
+  url: null
 pageLink: success
 permalink: >-
   {% capture varPagePath %}{% if pageLink%}{% assign pageLink = pageLink |
@@ -42,9 +42,9 @@ hero:
       visualInterest: none
       visualInterestColor: '#000000'
       highContrast: false
-      contrastColorGroup:
-      contrastAgainst:
-      textClassOverride:
+      contrastColorGroup: null
+      contrastAgainst: null
+      textClassOverride: null
 content_blocks: []
 _inputs:
   eleventyNavigation:
@@ -56,3 +56,4 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
+

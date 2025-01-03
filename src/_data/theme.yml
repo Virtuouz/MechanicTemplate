@@ -1,24 +1,24 @@
 primaryColor_group:
   name: Primary
-  textColor: '#010d0e'
-  backgroundColor: '#f1fdfe'
-  primaryColor: '#1ec2eb'
-  secondaryColor: '#729df3'
-  accentColor: '#486cef'
+  textColor: '#333333'
+  backgroundColor: '#eeeeee'
+  primaryColor: '#4682b4'
+  secondaryColor: '#ffc107'
+  accentColor: '#7ab5bc'
 customColor_groups:
   - name: Primary Dark
-    textColor: '#f1fdfe'
-    backgroundColor: '#010d0e'
-    primaryColor: '#14b8e1'
-    secondaryColor: '#0c378d'
-    accentColor: '#1034b7'
+    textColor: '#cccccc'
+    backgroundColor: '#121212'
+    primaryColor: '#4b88b9'
+    secondaryColor: '#fabb00'
+    accentColor: '#437e84'
     id: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
   - name: Primary Alt Background
-    textColor: '#010d0e'
+    textColor: '#333333'
     backgroundColor: '#ffffff'
-    primaryColor: '#1ec2eb'
-    secondaryColor: '#729df3'
-    accentColor: '#486cef'
+    primaryColor: '#4682b4'
+    secondaryColor: '#ffc107'
+    accentColor: '#7ab5bc'
     id: 5c9075f8-80f9-4482-b041-91cffdfe02be
 heading_font: Inria Sans
 content_font: Inria Sans

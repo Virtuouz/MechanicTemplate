@@ -1,7 +1,7 @@
 primaryColor_group:
   name: Primary
   textColor: '#333333'
-  backgroundColor: '#eeeeee'
+  backgroundColor: '#f9f9f9'
   primaryColor: '#4682b4'
   secondaryColor: '#ffc107'
   accentColor: '#7ab5bc'

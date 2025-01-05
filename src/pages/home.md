@@ -40,7 +40,7 @@ hero:
           - _bookshop_name: generic/button
             url: /contact/
             openInNewTab: false
-            text: Schedule your service now
+            text: Schedule your service
             color_group: primary
             colorFromGroup: primary
             ghostButton: false

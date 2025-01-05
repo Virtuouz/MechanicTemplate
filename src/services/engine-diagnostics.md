@@ -32,7 +32,7 @@ hero:
           running like new.
         buttons:
           - _bookshop_name: generic/button
-            url: '#'
+            url: /contact/
             openInNewTab: false
             text: Schedule Your Diagnostics Today
             color_group: primary
@@ -179,7 +179,7 @@ content_blocks:
         class:
       buttons:
         - _bookshop_name: generic/button
-          url: '#'
+          url: /contact/
           openInNewTab: false
           text: Schedule a diagnosis
           color_group: primary

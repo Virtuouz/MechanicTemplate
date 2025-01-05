@@ -35,14 +35,7 @@ hero:
         highlightEyebrow: true
         eyebrow: \[\[st.name\]\] \| serving \[\[tk.area\]\]
         headline: Fast, Reliable Auto Repairs You Can Trust!
-        description: >-
-          Serving the community with honest pricing and top-notch service.
-
-
-          **Feel free to reach out to us at \[\[st.contactInfo.email\]\] or call
-          \[\[st.contactInfo.phone\]\]. You can visit our location at
-          \[\[st.contactInfo.location\]\]. We’re open
-          \[\[st.contactInfo.hours\]\].**
+        description: Serving the community with honest pricing and top-notch service.
         buttons:
           - _bookshop_name: generic/button
             url: /contact/

@@ -45,6 +45,7 @@ hero:
       contrastColorGroup: null
       contrastAgainst: null
       textClassOverride: null
+  sectionId: null
 content_blocks: []
 _inputs:
   eleventyNavigation:

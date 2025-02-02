@@ -3,15 +3,16 @@ _schema: default
 draft: false
 eleventyExcludeFromCollections: false
 disableNav: false
+disableSitemap: false
 title: Engine Diagnostics and Repair
-metaDesc: null
+metaDesc:
 customCode:
   headCode: ''
   bodyCode: ''
 serviceImage: /assets/uploads/engine-diagnostic.jpg
-imageAltText: null
+imageAltText:
 category: Repair
-summary: null
+summary:
 permalink: >-
   /services/{% assign title = title | slugify %}{{ page.filePathStem |
   fileSubstringFilter | append: title | downcase }}/index.html
@@ -20,13 +21,13 @@ id: dd65b9c8-9f3c-4786-a1d6-f1f84c2d1b0a
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId: null
+    sectionId:
     heading:
       _bookshop_name: generic/heading
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: 'Expert Engine Diagnostics & Repair in \[\[tk.area\]\]'
+        headline: Expert Engine Diagnostics & Repair in \[\[tk.area\]\]
         description: >-
           Accurate, efficient, and reliable engine care to get your vehicle
           running like new.
@@ -46,16 +47,16 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup: null
-        contrastAgainst: null
-        textClassOverride: null
+        contrastColorGroup:
+        contrastAgainst:
+        textClassOverride:
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/engine-diagnostic.jpg
-      imageAlt: null
-      yAxisPosition: null
-      imageSizes: null
-      class: null
+      imageAlt:
+      yAxisPosition:
+      imageSizes:
+      class:
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
@@ -63,7 +64,7 @@ content_blocks:
   - _bookshop_name: sections/featuresCenterImage
     content:
       showNote: true
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -86,9 +87,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -107,18 +108,18 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
               highlightEyebrow: false
               eyebrow: ''
-              headline: Advanced Diagnostic Tools
+              headline: Comprehensive Inspection
               description: >-
-                We use cutting-edge equipment to identify engine problems with
-                precision.
+                Every service includes a thorough examination of critical engine
+                components.
               buttons: []
               headingHierarchy: h2
             styles:
@@ -127,18 +128,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
               highlightEyebrow: false
               eyebrow: ''
-              headline: Advanced Diagnostic Tools
-              description: >-
-                We use cutting-edge equipment to identify engine problems with
-                precision.
+              headline: '**Expert Repairs**:'
+              description: From minor fixes to major engine overhauls, we handle it all.
               buttons: []
               headingHierarchy: h2
             styles:
@@ -147,18 +146,18 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
               highlightEyebrow: false
               eyebrow: ''
-              headline: Advanced Diagnostic Tools
+              headline: Timely Solutions
               description: >-
-                We use cutting-edge equipment to identify engine problems with
-                precision.
+                We diagnose and repair your engine efficiently to minimize
+                downtime.
               buttons: []
               headingHierarchy: h2
             styles:
@@ -167,16 +166,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
       image:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/engine-diagnostics/engine-diagnostics.jpg
-        imageAlt: null
-        yAxisPosition: null
-        imageSizes: null
-        class: null
+        imageAlt:
+        yAxisPosition:
+        imageSizes:
+        class:
       buttons:
         - _bookshop_name: generic/button
           url: /contact/
@@ -193,7 +192,7 @@ content_blocks:
       imageVisualInterest: none
   - _bookshop_name: sections/informationCards
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -209,9 +208,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -230,9 +229,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -250,9 +249,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -271,9 +270,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -291,9 +290,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -311,16 +310,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup: null
-              contrastAgainst: null
-              textClassOverride: null
+              contrastColorGroup:
+              contrastAgainst:
+              textClassOverride:
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -336,9 +335,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -388,7 +387,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -404,9 +403,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       usePersonImage: true
       reviews:
         - review: 704da101-1f4a-4d2e-80bd-2f70eed1f139
@@ -414,7 +413,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -430,9 +429,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -464,7 +463,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId: null
+      sectionId:
       heading:
         _bookshop_name: generic/heading
         content:
@@ -480,9 +479,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup: null
-          contrastAgainst: null
-          textClassOverride: null
+          contrastColorGroup:
+          contrastAgainst:
+          textClassOverride:
       showNote: true
     styles:
       color_group: primary
@@ -495,4 +494,3 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
-

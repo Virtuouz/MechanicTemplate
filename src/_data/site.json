@@ -3,6 +3,8 @@
   "faviconPath": "",
   "name": "Auto Repair",
   "legalName": "Auto Repair LLC",
+  "termsAndConditionsUrl": "",
+  "privacyPolicyUrl": "",
   "url": "https://exampLe.com",
   "contactInfo": {
     "email": "info@example.com",
@@ -49,6 +51,12 @@
   "color_group": "primary",
   "footer_color_group": "57af1dbe-0f2e-43f8-8a78-3fc88e5754fe",
   "_inputs": {
+    "privacyPolicyUrl": {
+      "type": "url"
+    },
+    "termsAndConditionsUrl": {
+      "type": "url"
+    },
     "umamiAnalytics": {
       "hidden": true
     },

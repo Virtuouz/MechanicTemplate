@@ -5,14 +5,14 @@ eleventyExcludeFromCollections: false
 disableNav: false
 disableSitemap: false
 title: Transmission
-metaDesc:
+metaDesc: null
 customCode:
   headCode: ''
   bodyCode: ''
 serviceImage: /assets/uploads/transmission-service.jpg
-imageAltText:
+imageAltText: null
 category: Repair
-summary:
+summary: null
 permalink: >-
   /services/{% assign title = title | slugify %}{{ page.filePathStem |
   fileSubstringFilter | append: title | downcase }}/index.html
@@ -21,13 +21,13 @@ id: b6cccd62-1235-4bbb-bd07-12612c581fee
 hero:
   _bookshop_name: sections/bannerHero
   content:
-    sectionId:
+    sectionId: null
     heading:
       _bookshop_name: generic/heading
       content:
         highlightEyebrow: false
         eyebrow: ''
-        headline: Expert Transmission Repair and Maintenance in \[\[tk.area\]\]
+        headline: 'Expert Transmission Repair and Maintenance in \[\[tk.area\]\]'
         description: >-
           Keep your vehicle running smoothly with reliable transmission services
           tailored to your needs.
@@ -47,16 +47,16 @@ hero:
         visualInterest: none
         visualInterestColor: '#000000'
         highContrast: false
-        contrastColorGroup:
-        contrastAgainst:
-        textClassOverride:
+        contrastColorGroup: null
+        contrastAgainst: null
+        textClassOverride: null
     backgroundImage:
       _bookshop_name: generic/image
       imagePath: /assets/uploads/transmission-service.jpg
-      imageAlt:
-      yAxisPosition:
-      imageSizes:
-      class:
+      imageAlt: null
+      yAxisPosition: null
+      imageSizes: null
+      class: null
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 70
@@ -64,7 +64,7 @@ content_blocks:
   - _bookshop_name: sections/featuresCenterImage
     content:
       showNote: true
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -86,9 +86,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -105,9 +105,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -125,9 +125,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -145,16 +145,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
               highlightEyebrow: false
               eyebrow: ''
               headline: Expert Care for All Transmissions
-              description: Whether automatic, manual, or CVT, we specialize in all types.
+              description: 'Whether automatic, manual, or CVT, we specialize in all types.'
               buttons: []
               headingHierarchy: h2
             styles:
@@ -163,16 +163,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
       image:
         _bookshop_name: generic/image
         imagePath: /assets/uploads/transmission/service-transmission.jpg
-        imageAlt:
-        yAxisPosition:
-        imageSizes:
-        class:
+        imageAlt: null
+        yAxisPosition: null
+        imageSizes: null
+        class: null
       buttons:
         - _bookshop_name: generic/button
           url: /contact/
@@ -189,7 +189,7 @@ content_blocks:
       imageVisualInterest: none
   - _bookshop_name: sections/informationCards
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -205,9 +205,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       cards:
         - heading:
             _bookshop_name: generic/heading
@@ -224,9 +224,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -244,9 +244,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -264,9 +264,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -284,9 +284,9 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
         - heading:
             _bookshop_name: generic/heading
             content:
@@ -305,16 +305,16 @@ content_blocks:
               visualInterest: none
               visualInterestColor: '#000000'
               highContrast: false
-              contrastColorGroup:
-              contrastAgainst:
-              textClassOverride:
+              contrastColorGroup: null
+              contrastAgainst: null
+              textClassOverride: null
     styles:
       color_group: primary
       card_color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
       cardBackground: true
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -330,9 +330,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -387,7 +387,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/textBreakReview
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -403,9 +403,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       usePersonImage: true
       reviews:
         - review: 49301fcb-2c3e-4143-b164-23a71185410c
@@ -413,7 +413,7 @@ content_blocks:
       color_group: primary
   - _bookshop_name: sections/simpleTextBlock
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -429,9 +429,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       text:
         _bookshop_name: generic/textBlock
         text: >-
@@ -464,7 +464,7 @@ content_blocks:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
   - _bookshop_name: sections/coloredCTA
     content:
-      sectionId:
+      sectionId: null
       CallToAction:
         _bookshop_name: generic/heading
         content:
@@ -490,16 +490,16 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
     styles:
       color_group: primary
       card_color_group: primary
       colorFromGroup: primary
   - _bookshop_name: sections/servicesSection
     content:
-      sectionId:
+      sectionId: null
       heading:
         _bookshop_name: generic/heading
         content:
@@ -515,9 +515,9 @@ content_blocks:
           visualInterest: none
           visualInterestColor: '#000000'
           highContrast: false
-          contrastColorGroup:
-          contrastAgainst:
-          textClassOverride:
+          contrastColorGroup: null
+          contrastAgainst: null
+          textClassOverride: null
       showNote: true
     styles:
       color_group: 5c9075f8-80f9-4482-b041-91cffdfe02be
@@ -530,3 +530,4 @@ _inputs:
     type: code
     comment: Add code before the </body> tag
 ---
+

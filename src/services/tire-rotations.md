@@ -56,6 +56,7 @@ hero:
       yAxisPosition: null
       imageSizes: null
       class: null
+      imageNumber: null
   styles:
     color_group: 57af1dbe-0f2e-43f8-8a78-3fc88e5754fe
     backgroundOpacity: 50
@@ -171,6 +172,7 @@ content_blocks:
         yAxisPosition: null
         imageSizes: null
         class: null
+        imageNumber: null
       buttons:
         - _bookshop_name: generic/button
           url: /contact/

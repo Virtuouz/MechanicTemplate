@@ -80,6 +80,7 @@ content_blocks:
               yAxisPosition: null
               imageSizes: null
               class: null
+              imageNumber: null
             link: null
           style:
             color_group: primary
@@ -95,6 +96,7 @@ content_blocks:
               yAxisPosition: null
               imageSizes: null
               class: null
+              imageNumber: null
             link: null
           style:
             color_group: primary
@@ -110,6 +112,7 @@ content_blocks:
               yAxisPosition: null
               imageSizes: null
               class: null
+              imageNumber: null
             link: null
           style:
             color_group: primary
@@ -125,6 +128,7 @@ content_blocks:
               yAxisPosition: null
               imageSizes: null
               class: null
+              imageNumber: null
             link: null
           style:
             color_group: primary
@@ -140,6 +144,7 @@ content_blocks:
               yAxisPosition: null
               imageSizes: null
               class: null
+              imageNumber: null
             link: null
           style:
             color_group: primary
@@ -155,6 +160,7 @@ content_blocks:
               yAxisPosition: null
               imageSizes: null
               class: null
+              imageNumber: null
             link: null
           style:
             color_group: primary

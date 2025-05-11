@@ -34,7 +34,10 @@ const yaml = require("js-yaml");
 const { execSync } = require("child_process");
 const fs = require("fs");
 const svgContents = require("eleventy-plugin-svg-contents");
+const Fetch = require("@11ty/eleventy-fetch");
+const { generateLQIP } = require("./utils/lqip.js");
 
+const imageHashes = {};
 const imageShortcode = async (
   src,
   alt,
@@ -47,25 +50,53 @@ const imageShortcode = async (
   let before = Date.now();
 
   let inputFilePath = src == null ? src : path.join("src", src);
-
+  let isRemoteUrl = false;
   if (src.includes("http://") || src.includes("https://")) {
     inputFilePath = src;
+    isRemoteUrl = true;
   }
 
   // console.log(
   //   `[11ty/eleventy-img] ${Date.now() - before}ms: ${inputFilePath}`,
   // );
+  const cacheDuration = "365d";
   const imageMetadata = await Image(inputFilePath, {
     svgShortCircuit: preferSvg ? "size" : false,
     widths: [...widths],
     formats: [...formats, null],
     outputDir: "dist/assets/images",
     urlPath: "/assets/images",
+    cacheOptions: {
+      duration: cacheDuration,
+    }
   });
+  if (!(Image.getHash(inputFilePath) in imageHashes) && !isRemoteUrl) {
+    imageHashes[Image.getHash(inputFilePath)] =
+      await Fetch(async function() {
+
+		return generateLQIP(inputFilePath);
+	}, {
+		// must supply a unique id for the callback
+		requestId: `imagelqip-${Image.getHash(inputFilePath)}`,
+    duration: cacheDuration
+	});
+  } else if (!(Image.getHash(inputFilePath) in imageHashes) && isRemoteUrl) {
+    imageHashes[Image.getHash(inputFilePath)] = await Fetch(async function() {
+		// do some expensive operation here, this is simplified for brevity
+    let imageBuffer = await Fetch(inputFilePath, { type: "buffer" });
+
+		return generateLQIP(imageBuffer);
+	}, {
+		// must supply a unique id for the callback
+		requestId: `imagelqip-${Image.getHash(inputFilePath)}`,
+    duration: cacheDuration
+	});
+  }
 
   const imageAttributes = {
     class: cls,
     alt,
+    style: imageHashes[Image.getHash(inputFilePath)],
     sizes: sizes || "100vw",
     loading: "lazy",
     decoding: "async",
@@ -112,6 +143,7 @@ const logoShortcode = async (
     return `<img class='${cls}' src='${src}' alt='${alt}'>`;
   }
 };
+
 
 function generateImages(src, widths = [200, 400, 850, 1920, 2500]) {
   let source = src;
@@ -344,11 +376,20 @@ module.exports = (eleventyConfig) => {
       });
   });
 
-    eleventyConfig.addCollection("listings", (collection) => {
-    return collection.getFilteredByGlob("./src/listings/**/*.md").sort((a, b) => {
-      //sort by title
-      return a.data.title.localeCompare(b.data.title);
-    });
+  eleventyConfig.addCollection("listings", (collection) => {
+    return collection
+      .getFilteredByGlob("./src/listings/**/*.md")
+      .sort((a, b) => {
+        if (a.data.canExpire && !b.data.canExpire) {
+          return -1; // a comes before b if a can expire and b cannot
+        } else if (!a.data.canExpire && b.data.canExpire) {
+          return 1; // b comes before a if b can expire and a cannot
+        } else if (a.data.canExpire && b.data.canExpire) {
+          return new Date(a.data.expireDate) - new Date(b.data.expireDate); // sort by expireDate if both can expire
+        } else {
+          return a.data.title.localeCompare(b.data.title); // sort alphabetically if neither can expire
+        }
+      });
   });
 
   eleventyConfig.addFilter("dateFilter", dateFilter);

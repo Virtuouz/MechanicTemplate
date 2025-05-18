@@ -18,6 +18,7 @@ const getServiceCategories = require("./src/filters/getServiceCategories-filter.
 const pathExistsFilter = require("./src/filters/pathExists-filter.js");
 const uuidHashFilter = require("./src/filters/uuid-hash-filter.js");
 const tagColorFilter = require("./src/filters/tag-color-filter.js");
+const collectionsFilter = require("./src/filters/collections-filter.js");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it"),
@@ -56,9 +57,6 @@ const imageShortcode = async (
     isRemoteUrl = true;
   }
 
-  // console.log(
-  //   `[11ty/eleventy-img] ${Date.now() - before}ms: ${inputFilePath}`,
-  // );
   const cacheDuration = "365d";
   const imageMetadata = await Image(inputFilePath, {
     svgShortCircuit: preferSvg ? "size" : false,
@@ -82,7 +80,6 @@ const imageShortcode = async (
 	});
   } else if (!(Image.getHash(inputFilePath) in imageHashes) && isRemoteUrl) {
     imageHashes[Image.getHash(inputFilePath)] = await Fetch(async function() {
-		// do some expensive operation here, this is simplified for brevity
     let imageBuffer = await Fetch(inputFilePath, { type: "buffer" });
 
 		return generateLQIP(imageBuffer);
@@ -392,6 +389,7 @@ module.exports = (eleventyConfig) => {
       });
   });
 
+
   eleventyConfig.addFilter("dateFilter", dateFilter);
   eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
   eleventyConfig.addFilter("readTimeFilter", readTimeFilter);
@@ -412,6 +410,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("evalLiquid", evalLiquid);
   eleventyConfig.addFilter("happeningsFilter", happeningsFilter);
   eleventyConfig.addFilter("listingsFilter", listingsFilter);
+  eleventyConfig.addFilter("collectionsFilter", collectionsFilter);
   eleventyConfig.addFilter("pathExists", pathExistsFilter);
   eleventyConfig.addFilter("uuidHashFilter", uuidHashFilter);
   eleventyConfig.addFilter("tagColorFilter", tagColorFilter);

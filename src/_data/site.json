@@ -23,6 +23,11 @@
     "scriptSource": "https://analytics.vynxlabs.com/script.js",
     "dataDomains": ""
   },
+  "navigation": {
+    "footerUseNav": true,
+    "topNav": null,
+    "footerNav": null
+  },
   "socialMediaLinks": [
     {
       "label": "Facebook",
@@ -51,6 +56,23 @@
   "color_group": "primary",
   "footer_color_group": "57af1dbe-0f2e-43f8-8a78-3fc88e5754fe",
   "_inputs": {
+    "footerUseNav": {
+      "label": "Use Top Navigation in Footer",
+      "comment": "This will duplicate the top navigation in the footer to save you time. If you want to use your own navigation in the footer, leave this unchecked."
+    },
+    "topNav": {
+      "type": "array",
+      "options": {
+        "structures": "_structures.rootLinks"
+      }
+    },
+    "footerNav": {
+      "hidden": "footerUseNav",
+      "type": "array",
+      "options": {
+        "structures": "_structures.links"
+      }
+    },
     "privacyPolicyUrl": {
       "type": "url"
     },

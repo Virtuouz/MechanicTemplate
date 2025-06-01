@@ -51,8 +51,8 @@ collections_config:
     singular_key: null
     _editables: null
     _enabled_editors:
-      - visual
       - content
+      - visual
     _inputs:
       title:
         label: Page Title
@@ -174,8 +174,8 @@ collections_config:
       exclude:
         - happenings.json
     _enabled_editors:
-      - visual
       - content
+      - visual
     _inputs:
       title:
         label: Page Title
@@ -221,8 +221,8 @@ collections_config:
       exclude:
         - services.json
     _enabled_editors:
-      - visual
       - content
+      - visual
     _inputs:
       title:
         label: Page Title
@@ -263,8 +263,8 @@ collections_config:
       exclude:
         - listings.json
     _enabled_editors:
-      - visual
       - content
+      - visual
     _inputs:
       title:
         label: Page Title
@@ -552,6 +552,8 @@ _inputs:
       redo: true
       removeformat: true
       copyformatting: true
+  _menuType:
+    hidden: true
 _snippets:
   imageModal:
     template: eleventy_liquid_bookshop_component
@@ -603,6 +605,37 @@ _structures:
     style: modal
   hero_blocks:
     style: modal
+  links:
+    style: select
+    values:
+      - label: Single Link
+        value:
+          _menuType: link
+          title:
+          url:
+      - label: Link Group
+        value:
+          _menuType: group
+          title:
+          links:
+  rootLinks:
+    style: select
+    values:
+      - label: Single Link
+        value:
+          _menuType: link
+          title:
+          url:
+      - label: Link Group
+        value:
+          _menuType: group
+          title:
+          links:
+      - label: Mega Menu
+        value:
+          _menuType: mega
+          title:
+          links:
   tokens:
     style: select
     values:
